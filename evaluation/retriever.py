@@ -36,15 +36,25 @@ class InMemVectorRetriever:
     def _get_ollama_batch_embeddings(self, texts: List[str]) -> List[List[float]]:
         if check_ollama_alive(self.ollama_url):
             try:
-                resp = requests.post(
-                    f"{self.ollama_url}/api/embed",
-                    json={"model": self.model_name, "input": texts},
-                    timeout=config.embedding_timeout
-                )
-                if resp.status_code == 200:
-                    data = resp.json()
-                    if "embeddings" in data and len(data["embeddings"]) == len(texts):
-                        return data["embeddings"]
+                batch_size = getattr(config, "embedding_batch_size", 50)
+                all_embs = []
+                for i in range(0, len(texts), batch_size):
+                    batch = texts[i:i + batch_size]
+                    resp = requests.post(
+                        f"{self.ollama_url}/api/embed",
+                        json={"model": self.model_name, "input": batch},
+                        timeout=config.embedding_timeout
+                    )
+                    if resp.status_code == 200:
+                        data = resp.json()
+                        if "embeddings" in data and len(data["embeddings"]) == len(batch):
+                            all_embs.extend(data["embeddings"])
+                            continue
+                    # Fallback single requests for this batch if batch fails
+                    for t in batch:
+                        all_embs.append(self._get_ollama_embedding(t))
+                if len(all_embs) == len(texts):
+                    return all_embs
             except Exception:
                 pass
             return [self._get_ollama_embedding(t) for t in texts]

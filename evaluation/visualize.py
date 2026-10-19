@@ -73,5 +73,41 @@ def generate_evaluation_charts():
     plt.close(fig)
     print(f"Generated RQ2 chart: {chart2_path}")
 
+    # 3. CV-JD Matching Chart: Top-1 Match Similarity Across 4 Chunkers
+    matching_csv = os.path.join(reports_dir, "results_cv_jd_matching_detailed.csv")
+    if os.path.exists(matching_csv):
+        df_match = pd.read_csv(matching_csv)
+        # Filter for top-1 match per candidate and strategy
+        top1_df = df_match[df_match["rank"] == 1].copy()
+
+        fig, ax = plt.subplots(figsize=(14, 7), dpi=300)
+        sns.barplot(
+            data=top1_df, 
+            x="candidate_name", 
+            y="max_similarity", 
+            hue="strategy_clean", 
+            ax=ax, 
+            palette="viridis"
+        )
+        ax.set_title("CV-to-JD Semantic Matching: Top-1 Similarity Score Across 4 Chunking Strategies", fontsize=14, weight="bold", pad=15)
+        ax.set_xlabel("Candidate (CV)", fontsize=12, labelpad=10)
+        ax.set_ylabel("Cosine Similarity (0.0 - 1.0)", fontsize=12)
+        ax.set_ylim(0, 1.1)
+        ax.tick_params(axis='x', rotation=18)
+
+        # Add data labels
+        for p in ax.patches:
+            val = p.get_height()
+            if val > 0:
+                ax.annotate(f"{val:.2f}",
+                            (p.get_x() + p.get_width() / 2., val),
+                            ha='center', va='bottom', fontsize=8, xytext=(0, 2),
+                            textcoords='offset points')
+
+        chart3_path = os.path.join(reports_dir, "cv_jd_matching_comparison.png")
+        fig.savefig(chart3_path)
+        plt.close(fig)
+        print(f"Generated CV-JD Matching chart: {chart3_path}")
+
 if __name__ == "__main__":
     generate_evaluation_charts()

@@ -199,5 +199,25 @@ class BenchmarkRunner:
         print("=" * 80 + "\n")
 
 if __name__ == "__main__":
-    runner = BenchmarkRunner()
-    runner.run_all()
+    import argparse
+    parser = argparse.ArgumentParser(description="HR RAG Chunking Benchmark Runner")
+    parser.add_argument("--retrieval-only", action="store_true", help="Run only RQ1/RQ2 retrieval evaluation")
+    parser.add_argument("--match-only", action="store_true", help="Run only CV-to-JD cross-chunker matching evaluation")
+    args = parser.parse_args()
+
+    if args.match_only:
+        from evaluation.cv_jd_matcher import CVJDMatchingBenchmark
+        matcher = CVJDMatchingBenchmark()
+        matcher.run_benchmark()
+    elif args.retrieval_only:
+        runner = BenchmarkRunner()
+        runner.run_all()
+    else:
+        # Run Retrieval Benchmark first
+        runner = BenchmarkRunner()
+        runner.run_all()
+
+        # Run CV-to-JD Matching Benchmark
+        from evaluation.cv_jd_matcher import CVJDMatchingBenchmark
+        matcher = CVJDMatchingBenchmark()
+        matcher.run_benchmark()
