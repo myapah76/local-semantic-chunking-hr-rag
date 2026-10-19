@@ -24,5 +24,230 @@
       "work_location": "Ho Chi Minh City"
     },
     "content": "ORGANIZATION: COGNITIVE HR SOLUTIONS\nOPEN POSITION: SENIOR AI & NLP RESEARCH ENGINEER (LOCAL RAG PIPELINES)\n\nABOUT US:\nCognitive HR is building next-generation intelligent recruitment and talent analytics software. We focus on on-premise, privacy-preserving enterprise AI systems.\n\nPRIMARY RESPONSIBILITIES:\n- Architect, build, and benchmark end-to-end Retrieval-Augmented Generation (RAG) pipelines for HR document understanding (CV parsing, job-matching, competency gap detection).\n- Research and implement advanced semantic chunking methods and document segmentation algorithms that outperform standard fixed-window approaches.\n- Evaluate and fine-tune multilingual embedding models (e.g. Qwen, BGE, PhoBERT) to achieve state-of-the-art retrieval accuracy across Vietnamese and English corpora.\n- Optimize local model inference and GPU memory allocation (RTX/Tesla series) via vLLM, Ollama, and INT4/INT8 quantization.\n- Build evaluation benchmarks measuring Recall@K, MRR, and latency trade-offs.\n\nREQUIRED QUALIFICATIONS:\n- 3+ years of hands-on experience in Machine Learning and Deep Learning with PyTorch or TensorFlow.\n- Deep understanding of Vector Databases (PostgreSQL with pgvector, Chroma, Qdrant) and similarity search metrics.\n- Experience with LangChain, LlamaIndex, or custom semantic splitter implementations.\n- Strong proficiency in Python, FastAPI, Docker, and Linux environments.\n- Good knowledge of NLP concepts: tokenization, attention mechanisms, cross-encoders, and reciprocal rank fusion.\n\nPERKS & ADVANTAGES:\n- Attractive compensation package: $2,500 - $3,500 net per month.\n- High-performance on-premise GPU workstations provided for research.\n- Annual educational budget of $1,000 for AI conferences, certifications, and courses.\n- Flexible working hours and 18 days of paid annual leave."
+  },
+  {
+    "doc_id": "JD_003_FE_REACT_NEXTEDGE",
+    "doc_type": "JD",
+    "title": "Mô tả công việc: Senior / Experienced Frontend Developer (React.js / FinTech) - NextEdge",
+    "language": "en",
+    "metadata": {
+      "company": "NextEdge Co., Ltd",
+      "department": "Frontend Engineering",
+      "level": "Senior / Experienced",
+      "salary_range": "Competitive Salary + Employee Shares Plan",
+      "work_location": "Ho Chi Minh City & Can Tho (At office)",
+      "working_days": "Monday - Friday (No OT)"
+    },
+    "content": "COMPANY: CÔNG TY TNHH NEXTEDGE (NEXTEDGE CO., LTD)\nPOSITION: JAVASCRIPT / FRONTEND DEVELOPER (EXPERIENCED OR SENIOR - REACT.JS)\nLOCATIONS:\n- Floor 16th, Unit B1-B3-B4, International Plaza Tower, No. 343 Pham Ngu Lao Street, Ben Thanh, District 1, Ho Chi Minh City\n- Floor 1st, STS Tower, No. 11B Hoa Binh Street, Ninh Kieu, Can Tho\n\nTOP REASONS TO JOIN US:\n- Competitive salary, career growth opportunities, and employee shares plan.\n- Hands-on experience in the FinTech industry with live B2B clients in APAC & EMEA.\n- Work with regional ASEAN teams, participate in regional tech conferences and business trips.\n\nJOB DESCRIPTION & RESPONSIBILITIES:\n- Act as a key contributor in developing high-quality financial software solutions following modern React.js workflows and best practices.\n- Ensure UI components and overall web applications are robust, responsive, and easy to maintain.\n- Coordinate and collaborate with cross-functional ASEAN engineering teams on complex architecture problem solving.\n- Work closely with Backend developers (Node.js and Java) with opportunities to expand into FullStack development.\n- Build Single Page Applications (SPA) and explore Micro-frontend architecture.\n\nSKILLS & QUALIFICATIONS:\n- At least 2-3 years of working experience in front-end web development.\n- Highly skilled in SPA frameworks, specifically React.js (knowledge of Vue or Angular is a plus).\n- Proficient with React Hooks, Redux state management, and Server-Side Rendering (SSR).\n- Solid understanding of CSS pre-processing platforms such as SASS and LESS.\n- Experience with Micro-frontend concepts and modern build tools (Git, ESLint, Babel, Webpack, Vite).\n- Familiarity with RESTful APIs, backend integration (NodeJS/Java), and Scrum/Agile workflows.\n- Good communication skills, independent mindset, and ability to thrive without micromanagement.\n\nBENEFITS & PERKS:\n- Tech startup innovation combined with regional enterprise stability.\n- Opportunities to travel across ASEAN for FinTech conferences and client engagements.\n- Multicultural, diverse, and vibrant engineering environment."
+  },
+  {
+    "doc_id": "JD_004_CLOUDOPS_AWS_NEXTEDGE",
+    "doc_type": "JD",
+    "title": "Job Description: Cloud Operations Engineer (CloudOps / AWS / Terraform) - NextEdge",
+    "language": "en",
+    "metadata": {
+      "company": "NextEdge Co., Ltd",
+      "department": "Cloud Operations & Infrastructure",
+      "level": "Middle / Senior",
+      "salary_range": "Attractive Base Salary & Company Bonus",
+      "work_location": "Ho Chi Minh City & Da Nang (Hybrid)",
+      "working_days": "Monday - Friday (No OT)"
+    },
+    "content": "COMPANY: NEXTEDGE CO., LTD\nROLE: CLOUD OPERATIONS ENGINEER (CLOUDOPS - AWS)\nWORK LOCATION:\n- 02 Tan Vien, Tan Son Hoa, Ho Chi Minh City\n- VNPT Building, 346 2/9 Street, Hoa Cuong, Da Nang\nMODE: Hybrid (flexible between home and office)\n\nOVERVIEW:\nWe are seeking a Cloud Operations Engineer (CloudOps) with strong expertise in AWS cloud operations, cloud security, and infrastructure automation. This role is critical in ensuring our cloud platforms are secure, scalable, cost-efficient, and highly available.\n\nKEY RESPONSIBILITIES:\n1. Cloud Operations & Reliability:\n- Operate and maintain enterprise cloud infrastructure on AWS, ensuring 99.99% high availability, performance, and scalability.\n- Monitor, troubleshoot, and resolve complex cloud infrastructure issues across production and staging environments.\n- Implement best practices for cloud resilience, disaster recovery (DR), and operational excellence for serverless workloads.\n2. Cloud Security & Governance:\n- Design, implement, and maintain secure cloud architectures following CIS and AWS security benchmarks.\n- Identify, analyze, and remediate vulnerabilities and audit findings from tools like GuardDuty, Wiz, and Security Hub.\n- Implement fine-grained IAM policies, network security controls (VPC, Security Groups, NACLs, VPNs), encryption at rest/in transit, and centralized logging.\n3. Infrastructure as Code & Automation:\n- Design, maintain, and provision infrastructure using Terraform following IaC best practices.\n- Build automation scripts in Python/Bash to automate operations, compliance checks, and auto-remediation workflows.\n4. Cloud Optimization (FinOps):\n- Drive cloud cost optimization initiatives to reduce wasted cloud spend while maximizing performance and resource utilization.\n\nQUALIFICATIONS & EXPERIENCE:\n- 3+ years of professional experience in Cloud Operations / CloudOps / SRE.\n- Strong hands-on experience with core AWS services: EC2, VPC, IAM, RDS, S3, CloudWatch, CloudTrail, AppSync, API Gateway, and AWS Lambda.\n- Solid understanding of cloud networking (VPC peering, transit gateways, routing, firewalls).\n- Proven proficiency with Terraform, Python scripting, and container platforms (Docker, ECS/EKS).\n- AWS certifications (Solutions Architect, SysOps, or Security Specialty) are advantageous.\n\nBENEFITS:\n- Attractive salary with full pay during probation; social insurance based on 100% Gross salary.\n- 13th-month salary, company performance bonus, 14 days annual leave.\n- Opportunities for Singapore business trips and exchanges.\n- PTI Premium health insurance, annual health checkups, company trips, and monthly parties."
+  },
+  {
+    "doc_id": "JD_005_FULLSTACK_TESTER_KMS",
+    "doc_type": "JD",
+    "title": "Job Description: Full-Stack Software Tester (Auto & Manual / QA Engineer) - KMS Technology",
+    "language": "en",
+    "metadata": {
+      "company": "KMS Technology",
+      "department": "Quality Assurance & Testing",
+      "level": "Junior / Senior",
+      "salary_range": "Attractive Salary & Benefits",
+      "work_location": "9-11 Dong Da Street, Tan Son Hoa, Ho Chi Minh City",
+      "working_days": "Monday - Friday (No OT)"
+    },
+    "content": "COMPANY: KMS TECHNOLOGY VIETNAM\nPOSITION: FULL-STACK TESTER (MANUAL & AUTOMATION QA ENGINEER)\nLOCATION: 9-11 Dong Da Street, Tan Son Hoa, Tan Binh, Ho Chi Minh City (Hybrid flexible)\n\nROLE PURPOSE:\nExecute end-to-end testing activities across manual and automation domains to elevate product quality. Collaborate closely with development, BA, and operations teams to deliver mission-critical software solutions.\n\nKEY RESPONSIBILITIES:\n- Formulate and execute comprehensive test strategies, test plans, and test cases covering functional, regression, smoke, and performance acceptance testing.\n- Build and maintain scalable test automation frameworks using Selenium, Playwright, or Katalon.\n- Perform web UI and RESTful API testing using tools like Postman, IntelliJ, and Git.\n- Collaborate in Agile/Scrum ceremonies, review business requirements, and provide risk-based testing recommendations.\n- Mentor junior testers, manage sprint-based testing deliverables, and drive end-to-end automation coverage.\n\nREQUIREMENTS:\n- Bachelor's degree in IT, Computer Science, or equivalent.\n- 2+ years of experience for Junior level; 5+ years for Senior QA/Test Lead.\n- Strong foundation in manual testing techniques (black-box, risk-based, exploratory, boundary value analysis).\n- Hands-on test automation experience with Selenium or Playwright, with programming skills in Java, C#, or JavaScript/TypeScript.\n- Upper-Intermediate English proficiency (verbal and written) for direct client collaboration.\n- Nice to have: Familiarity with AI tools (ChatGPT, Claude) and AI coding assistants (GitHub Copilot, Cursor) to generate test cases and synthetic test data safely and responsibly.\n\nPERKS & BENEFITS:\n- Work at one of Vietnam's Best Places to Work on global large-scale software products.\n- Onsite opportunities in North America (US, Canada), Europe, and Asia.\n- Annual performance appraisal and bonus; hybrid and flexible work policy.\n- Comprehensive health insurance for employees and family; company trips, sports clubs, in-house entertainment (gym, ping pong, free snacks)."
+  },
+  {
+    "doc_id": "JD_006_DEVOPS_K8S_ENDAVA",
+    "doc_type": "JD",
+    "title": "Job Description: Cloud Native DevOps Engineer (Kubernetes / CI-CD) - Endava",
+    "language": "en",
+    "metadata": {
+      "company": "Endava Việt Nam",
+      "department": "Cloud Platform Engineering",
+      "level": "Mid-level (1-3 YOE)",
+      "salary_range": "Competitive Salary Package",
+      "work_location": "Ho Chi Minh City & Da Nang (Hybrid)",
+      "working_days": "Monday - Friday (No OT)"
+    },
+    "content": "COMPANY: ENDAVA VIETNAM\nPOSITION: CLOUD NATIVE DEVOPS ENGINEER\nOFFICE LOCATIONS:\n- Helios Building, Quang Trung Software City, District 12, Ho Chi Minh City\n- Floor 6th, Phi Long Building, 52 Nguyen Van Linh Street, Hai Chau, Da Nang\n\nABOUT THE ROLE:\nExciting opportunity to build and maintain next-generation CI/CD pipelines and container platforms for cloud-native microservices applications. The platform integrates distributed open-source technologies including Apache Cassandra, Kafka, Zookeeper, Elasticsearch, Prometheus, and Grafana.\n\nKEY RESPONSIBILITIES:\n- Manage, improve, and automate microservice CI/CD pipelines using GitLab CI, Docker, and Kubernetes.\n- Deploy and orchestrate applications across multi-cluster Kubernetes environments using Helm charts.\n- Troubleshoot infrastructure and network performance issues, ensuring system resilience and high sustainability.\n- Partner with international engineering teams across the UK and Europe to implement cloud-native best practices.\n- Automate testing scopes and deployment verification scripts for containerized microservices.\n\nQUALIFICATIONS:\n- Bachelor's degree in Software Engineering, Computer Science, or related field.\n- 1-3 years of practical experience with DevOps practices: Docker, Kubernetes, Helm, and GitLab CI/CD.\n- Solid scripting ability with Python and Bash.\n- Thorough understanding of Linux operating systems, networking fundamentals, and microservices design patterns.\n- Strong analytical problem-solving skills, log analysis, and debugging capabilities.\n- Good verbal and written English communication for global collaboration.\n\nWHY ENDAVA:\n- Competitive compensation, 13th-month salary, annual leave encashment, and referral bonuses.\n- Global career opportunities, certifications sponsorship, and structured career coaching.\n- Hybrid work policy, wellbeing programs, premium health insurance, and global tech community events."
+  },
+  {
+    "doc_id": "JD_007_JAVA_FULLSTACK_HITACHI",
+    "doc_type": "JD",
+    "title": "Job Description: Senior Full Stack Java Developer (Spring Boot / React / Elasticsearch / AWS) - Hitachi Digital Services",
+    "language": "en",
+    "metadata": {
+      "company": "Hitachi Digital Services",
+      "department": "Enterprise Digital Solutions",
+      "level": "Senior (5+ YOE)",
+      "salary_range": "Competitive Package + Allowances",
+      "work_location": "Ho Chi Minh City (Hybrid)",
+      "working_days": "Monday - Friday (No OT)"
+    },
+    "content": "COMPANY: HITACHI DIGITAL SERVICES VIETNAM\nPOSITION: SENIOR JAVA FULLSTACK DEVELOPER (REACT / SPRING BOOT / ELASTICSEARCH / AWS)\nLOCATION: Ho Chi Minh City (Hybrid work model)\n\nOVERVIEW:\nWe are looking for a Senior Full Stack Java Developer with 5+ years of experience in enterprise web application development. The ideal candidate brings deep expertise in Java/Spring Boot, modern React, Elasticsearch, AWS cloud architecture, and hands-on exposure to Generative AI / LLM integration.\n\nKEY RESPONSIBILITIES:\n- Develop and maintain highly scalable enterprise web applications utilizing Java, Spring Boot, and React/Angular.\n- Architect and implement high-throughput REST APIs, GraphQL endpoints, and microservices.\n- Build, optimize, and tune Elasticsearch clusters, index mappings, and Query DSL for complex search use cases.\n- Design cloud-native architectures on AWS (ECS, Lambda, S3, DynamoDB, API Gateway, AppSync, CloudWatch).\n- Integrate enterprise applications with LLM and Generative AI services (OpenAI, Azure OpenAI, AWS Bedrock, Anthropic Claude).\n- Conduct thorough code reviews, enforce CI/CD pipelines, automated testing, and production support.\n\nREQUIRED SKILLS & QUALIFICATIONS:\n- 5+ years of software development experience with Java, Spring Boot, and SQL databases.\n- Strong proficiency in modern React (or Angular/Vue.js) and component state management.\n- Deep experience with Elasticsearch (indexing, mapping optimization, query DSL, and Java SDK integration).\n- Hands-on experience deploying and operating solutions on AWS cloud infrastructure.\n- Demonstrated practical experience using AI coding assistants (GitHub Copilot, Cursor, ChatGPT) and building LLM/RAG application workflows.\n- Knowledge of Infrastructure as Code (Terraform, AWS CDK) and container orchestration (Docker, K8s).\n- Excellent English communication skills (written and spoken).\n\nBENEFITS & PERKS:\n- Opportunity to work with multinational teams across 130+ countries within the Hitachi group.\n- Overseas career opportunities in the US, UK, and Japan.\n- 13th-month salary, performance bonuses, transportation/meal allowances, language certificate allowances (English/Japanese).\n- Premium health insurance for employees and families, annual health checkups, company trips."
+  },
+  {
+    "doc_id": "JD_008_FULLSTACK_AI_SQREEM",
+    "doc_type": "JD",
+    "title": "Job Description: Full Stack Developer (React / Vue.js / LLM APIs / WebGL) - Sqreem Technologies",
+    "language": "en",
+    "metadata": {
+      "company": "Sqreem Technologies (VN) Pte. Ltd.",
+      "department": "AI & Behavioral Intelligence Engineering",
+      "level": "Senior / Mid-Senior",
+      "salary_range": "Attractive",
+      "work_location": "Viettel Tower - 285 Cach Mang Thang Tam, District 10, Ho Chi Minh City",
+      "working_days": "Monday - Friday (No OT)"
+    },
+    "content": "COMPANY: SQREEM TECHNOLOGIES (VN) PTE. LTD.\nPOSITION: FULL STACK DEVELOPER (AI & INTERACTIVE WEB PLATFORM)\nLOCATION: Viettel Tower - 285 Cach Mang Thang Tam Street, Ward 12, District 10, Ho Chi Minh City\n\nABOUT SQREEM:\nSQREEM is a leading Cognitive AI company delivering Behavioral Intelligence across 70+ countries, processing over 4 billion unstructured open-web signals daily. We operate the world's largest library of privacy-first, GDPR/HIPAA-compliant demographic and intent signals.\n\nROLE OVERVIEW:\nWe are seeking a versatile Full Stack Developer with heavy frontend emphasis to build interactive, real-time data interfaces for our proprietary ONE platform. You will build cutting-edge user experiences powered by LLM integrations and interactive graphics.\n\nKEY RESPONSIBILITIES:\n- Design and build robust, high-performance web UIs using modern frameworks (React.js, Vue.js, TypeScript).\n- Implement full-stack features, integrating backend microservices, REST APIs, WebSockets, and database interactions (PostgreSQL, MongoDB).\n- Integrate Large Language Model (LLM) APIs into product workflows: prompt engineering, API orchestration, streaming response handling, and token management.\n- Optimize client-side rendering, asset management, and browser performance for complex data visualization dashboards.\n- Research and incorporate emerging web graphics technologies (WebGL, Three.js, PixiJS, D3.js) to craft engaging interactive visualizations.\n- Maintain rigorous unit and integration testing, code reviews, and CI/CD pipelines.\n\nREQUIRED QUALIFICATIONS:\n- Proven track record as a Full Stack or Senior Frontend Developer on complex web applications.\n- Expert proficiency in JavaScript (ES6+), TypeScript, HTML5, and advanced CSS/SASS.\n- Extensive hands-on experience with React.js or Vue.js and modern state management (Redux, Zustand, Pinia).\n- Practical experience integrating LLM APIs and AI/ML workflows on cloud platforms (AWS preferred).\n- Strong grasp of RESTful APIs, WebSockets, database design, and high-traffic optimization.\n- Nice to have: Familiarity with Docker, Kubernetes, Three.js/D3.js, and cloud deployments.\n\nBENEFITS:\n- High-performance, equal-opportunity international work culture.\n- Flexible working arrangements, remote support, and direct mentorship programs.\n- Competitive compensation, modern equipment, and leadership in cognitive AI technology."
+  },
+  {
+    "doc_id": "JD_009_CORE_BANKING_OPS_VIETBANK",
+    "doc_type": "JD",
+    "title": "Job Description: Senior Core Banking Operations Specialist - Vietbank",
+    "language": "bilingual",
+    "metadata": {
+      "company": "Ngân hàng TMCP Việt Nam Thương Tín (Vietbank)",
+      "department": "Trung tâm Vận hành Hệ thống & CNTT Ngân hàng",
+      "level": "Senior (2+ YOE Core Banking)",
+      "salary_range": "$800 - $1,500 USD",
+      "work_location": "62A Cách Mạng Tháng Tám, Phường Võ Thị Sáu, Quận 3, TP. Hồ Chí Minh",
+      "working_days": "Monday - Friday (No OT)"
+    },
+    "content": "CÔNG TY: NGÂN HÀNG TMCP VIỆT NAM THƯƠNG TÍN (VIETBANK)\nVỊ TRÍ: SENIOR CORE BANKING OPERATIONS SPECIALIST (CHUYÊN VIÊN CAO CẤP VẬN HÀNH CORE BANKING)\nĐỊA ĐIỂM: 62A Cách Mạng Tháng Tám, Phường Võ Thị Sáu, Quận 3, TP. Hồ Chí Minh\n\n1. CORE BANKING OPERATIONS & SYSTEM AVAILABILITY:\n- Manage and monitor day-to-day operation of the bank's Core Banking system ensuring continuous 24/7 service availability.\n- Administer system parameters, schedule and execute daily batch jobs, and monitor End-of-Day (EOD) closing processes.\n- Coordinate with business branches to ensure transaction accuracy aligned with State Bank of Vietnam regulations and internal policies.\n- Formulate, maintain, and conduct regular Business Continuity Plan (BCP) and Disaster Recovery Plan (DRP) drill scenarios.\n\n2. SYSTEM CONFIGURATION & L2 INCIDENT RESOLUTION:\n- Configure Core Banking system parameters to match new deposit, loan, and payment product offerings.\n- Administer user roles and access control matrices in compliance with banking security standards.\n- Provide Level 2 (L2) technical troubleshooting for transaction discrepancies, interest rate errors, and batch job failures under SLA commitments.\n- Investigate root causes and collaborate with IT infrastructure, application, and vendor teams to apply permanent fixes.\n\n3. SYSTEM ENHANCEMENT & USER ACCEPTANCE TESTING (UAT):\n- Author operational manuals, guidelines, and conduct knowledge transfer sessions for L1 support teams.\n- Review business requirement documents (BRD) for system upgrades, Core Banking version migrations, and new module integrations.\n- Lead User Acceptance Testing (UAT), integration testing, and post-go-live verification.\n\nREQUIREMENTS & QUALIFICATIONS:\n- Bachelor's degree in IT, Computer Science, Banking & Finance, or related disciplines.\n- Minimum 2 years of direct operational experience with Core Banking systems (such as Temenos T24, Finacle, Silverlake, Flexcube).\n- Proficient in relational databases (Oracle, MS SQL Server) and scripting with PL/SQL.\n- Solid understanding of commercial banking workflows: deposits, loans, trade finance, interbank transfers, and regulatory compliance.\n- Strong analytical, problem-solving, and crisis-management skills under high-pressure banking environments.\n\nCHẾ ĐỘ ĐÃI NGỘ & PHÚC LỢI TẠI VIETBANK:\n- Mức lương cạnh tranh: 800 - 1,500 USD/tháng theo năng lực thực tế.\n- Lương tháng 13 + thưởng hiệu quả kinh doanh của ngân hàng và đơn vị.\n- Bảo hiểm chăm sóc sức khỏe toàn diện, khám sức khỏe định kỳ, đồng phục, phụ cấp.\n- Chế độ nghỉ mát, du lịch hàng năm, cơ hội thăng tiến rõ ràng trong hệ thống ngân hàng."
+  },
+  {
+    "doc_id": "JD_010_DEVOPS_AWS_CUBICSTACK",
+    "doc_type": "JD",
+    "title": "Job Description: DevOps Engineer (AWS / Cloud / FinTech & Blockchain) - CubicStack Solutions",
+    "language": "en",
+    "metadata": {
+      "company": "CubicStack Solutions",
+      "department": "Cloud Infrastructure & DevOps",
+      "level": "Mid-level (2+ YOE)",
+      "salary_range": "$1,200 - $1,800 USD",
+      "work_location": "546-548 Cach Mang Thang Tam, Nhieu Loc, Ho Chi Minh City",
+      "working_days": "Monday - Friday (No OT)"
+    },
+    "content": "COMPANY: CUBICSTACK SOLUTIONS\nROLE: DEVOPS ENGINEER (AWS / CLOUD / TERRAFORM)\nLOCATION: 546-548 Cach Mang Thang Tam, Nhieu Loc, District 3, Ho Chi Minh City\n\nABOUT US:\nCubicStack Solutions is a software development firm delivering specialized products in FinTech and Blockchain for anchor enterprise clients across Asia and Europe, backed by global venture capital partners.\n\nKEY RESPONSIBILITIES:\n- Architect, manage, and scale cloud infrastructure on AWS and DigitalOcean.\n- Design and maintain automated CI/CD pipelines using Git cloud services (Bitbucket, GitLab CI).\n- Support engineering teams in continuous deployments, hotfix delivery, and rolling zero-downtime updates.\n- Continuously monitor, troubleshoot, and optimize system uptime, latency, and cloud security posture.\n- Manage DNS, domains, SSL certificates, and network security configurations.\n\nQUALIFICATIONS:\n- Minimum 2 years of hands-on experience as a DevOps Engineer or Linux System Administrator.\n- At least 1 year of production experience with AWS core services: VPC, EC2, ALB, ECS, S3, RDS, Lambda, and CloudWatch.\n- Practical experience using Terraform for Infrastructure as Code (IaC).\n- Hands-on expertise with Docker containerization and container deployment in production.\n- Experience administering databases (MySQL, MongoDB) and implementing monitoring suites (Grafana, Prometheus, CloudWatch).\n- Proficient in scripting with Bash and Python.\n- Strong networking knowledge (firewalls, routing, NAT gateways) and analytical troubleshooting skills.\n\nBENEFITS & PERKS:\n- Competitive salary: $1,200 - $1,800 USD/month with 13th-month bonus and project performance rewards.\n- MacBook Pro and wide-screen external monitors provided.\n- Premium healthcare insurance package.\n- Monthly team dinners, annual company retreat, and international collaborative environment."
+  },
+  {
+    "doc_id": "JD_011_ANDROID_KOTLIN_UPLIVE",
+    "doc_type": "JD",
+    "title": "Job Description: Android Developer (Kotlin / Jetpack Compose / Audio Frameworks) - Uplive Vietnam",
+    "language": "en",
+    "metadata": {
+      "company": "Uplive Vietnam",
+      "department": "Mobile Game & Audio Engineering",
+      "level": "Mid to Senior (2-5 YOE)",
+      "salary_range": "Competitive Salary + 30% Uncapped Profit Sharing",
+      "work_location": "161 Ung Van Khiem, Ward 25, Binh Thanh District, Ho Chi Minh City",
+      "working_days": "Monday - Friday (9:00 - 18:30)"
+    },
+    "content": "COMPANY: UPLIVE VIETNAM\nPOSITION: ANDROID DEVELOPER (KOTLIN / JETPACK COMPOSE / MVVM)\nLOCATION: 161 Ung Van Khiem, Ward 25, Binh Thanh, Ho Chi Minh City\n\nMISSION:\nJoin Uplive on our mission to musicalize the world! We develop over 20 global music and gaming applications with more than 300 million downloads worldwide.\n\nWHAT YOU WILL DO:\n- Build and optimize native mobile experiences and audio processing features for millions of global users.\n- Architect robust, scalable mobile applications adhering to Clean Architecture and MVVM patterns.\n- Craft fluid, modern user interfaces with Jetpack Compose, Material Design 3, and state hoisting.\n- Research and prototype cutting-edge Android audio technologies (Media3, ExoPlayer, low-latency audio processing).\n- Collaborate with cross-functional Scrum teams and accelerate delivery using modern AI coding agents (Claude Code, GitHub Copilot).\n- Maintain production stability through continuous debugging, profiling, and crashlytics monitoring.\n\nREQUIRED QUALIFICATIONS:\n- 2 to 5 years of professional native Android development experience.\n- Expert command of Kotlin: Coroutines, Flow, StateFlow, sealed classes, and Kotlin Serialization.\n- Production experience with Jetpack Compose, Jetpack Navigation, Room, and DataStore.\n- Deep familiarity with Clean Architecture, Dependency Injection (Hilt / Dagger), and REST APIs (Ktor / Retrofit).\n- Unit and UI testing experience (JUnit, MockK).\n- Production experience with Firebase (Analytics, Crashlytics, Remote Config) and AdMob / AppLovin MAX.\n- Nice to have: Experience with Media3/ExoPlayer, GLSL shaders, ProGuard/R8, and KSP.\n\nWHY YOU'LL LOVE WORKING HERE:\n- Uncapped 30% company profit-sharing bonus.\n- Full salary during probation, 100% SHUI on gross salary + Premium Private Medical Insurance.\n- 12 days annual leave + 10 days sick leave + 12 WFH days/year.\n- Annual personal development flexi-budget of 9,400,000 VNĐ.\n- Free daily lunch with 10+ options, free daily snacks, barista drinks, sponsored sports (soccer, badminton).\n- Overseas company learning trips (e.g., Korea, Japan) sponsored for top performers."
+  },
+  {
+    "doc_id": "JD_012_BACKEND_RAILS_UMDENKEN",
+    "doc_type": "JD",
+    "title": "Job Description: Backend Engineer (Ruby on Rails / Python / Infrastructure) - The Umdenken",
+    "language": "en",
+    "metadata": {
+      "company": "The Umdenken",
+      "department": "EdTech Platform Engineering",
+      "level": "Mid-level (3+ YOE)",
+      "salary_range": "Competitive Salary",
+      "work_location": "29 Nguyen Ba Lan, Thao Dien, Thu Duc City / Ho Chi Minh City (Hybrid)",
+      "working_days": "Monday - Friday (No OT)"
+    },
+    "content": "COMPANY: THE UMDENKEN (AUSTRALIA / VIETNAM)\nROLE: BACKEND ENGINEER (RUBY ON RAILS / PYTHON / CLOUD INFRASTRUCTURE)\nLOCATION: 29 Nguyen Ba Lan, Thao Dien, District 2, Ho Chi Minh City (Modern co-working space + Hybrid WFH)\n\nABOUT THE ROLE:\nThe Umdenken is an Australian EdTech company crafting scalable digital learning platforms. We are seeking a forward-thinking Backend Engineer to develop our core services in Ruby on Rails, optimize high-throughput APIs, and participate in porting components toward modern runtimes (Node.js, Rust, Python).\n\nKEY RESPONSIBILITIES:\n- Design, construct, and maintain reliable, testable backend services using Ruby on Rails and PostgreSQL.\n- Build and optimize RESTful APIs, data interchange pipelines, and front-end integration points.\n- Troubleshoot performance bottlenecks, database query optimizations, and concurrency challenges.\n- Collaborate on architecture modernization and the implementation of proprietary ML/AI learning and coaching metrics.\n- Gradually assume cloud infrastructure responsibilities (AWS/GCP), containerization, and automated deployments.\n- Utilize AI-driven development workflows to elevate code quality, test coverage, and development speed.\n\nSKILLS & EXPERIENCE:\n- Degree in Computer Science, Software Engineering, or equivalent experience.\n- 3+ years of professional backend development with Ruby on Rails.\n- Strong database expertise (PostgreSQL, MySQL), query optimization, and transaction isolation.\n- Solid familiarity with REST APIs, Git, and web standards.\n- Knowledge of cloud infrastructure (AWS/GCP) or eagerness to learn modern DevOps practices.\n- Excellent English communication skills for working with a distributed team across Australia and Southeast Asia.\n\nBENEFITS:\n- Truly international team with open, collaborative culture.\n- Flexible hybrid work model (work from home + modern Thao Dien co-working hub).\n- Purpose-driven work at the intersection of education, AI innovation, and web technology."
+  },
+  {
+    "doc_id": "JD_013_IT_INTERNSHIP_DEKON",
+    "doc_type": "JD",
+    "title": "Thông báo tuyển dụng: Thực tập sinh Công nghệ Thông tin (IT Internship Program) - DEKON",
+    "language": "vi",
+    "metadata": {
+      "company": "DEKON (Australia & Vietnam)",
+      "department": "Trung tâm Đào tạo Kỹ thuật & Phát triển Phần mềm",
+      "level": "Internship",
+      "salary_range": "Phụ cấp 1,000,000 VNĐ / tháng + Thưởng KPI",
+      "work_location": "Tầng 6, Toà nhà Thủy Lợi 4, 286-288 Nguyễn Xí, Bình Lợi Trung, Bình Thạnh, TP. Hồ Chí Minh",
+      "working_days": "Thứ Hai - Thứ Sáu (Làm việc tối thiểu 6 buổi/tuần tại văn phòng)"
+    },
+    "content": "CÔNG TY: DEKON (YOUR TRUSTED DATA, AI, WEB & BLOCKCHAIN TEAM)\nVỊ TRÍ: THỰC TẬP SINH CÔNG NGHỆ THÔNG TIN (IT INTERNSHIP PROGRAM)\nĐỊA ĐIỂM: Tầng 6, Toà nhà Thủy Lợi 4, 286-288 Nguyễn Xí, Phường 26, Bình Thạnh, TP. Hồ Chí Minh\n\nGIỚI THIỆU CHƯƠNG TRÌNH:\nDEKON là công ty công nghệ có chi nhánh tại Melbourne (Australia) chuyên về các giải pháp Data, Trí tuệ nhân tạo (AI), Web và Blockchain phức tạp. Chúng tôi mở chương trình đào tạo thực tập sinh bài bản nhằm xây dựng đội ngũ kỹ sư kế thừa chất lượng cao.\n\nKẾ HOẠCH ĐÀO TẠO & CÔNG VIỆC:\n- Tham gia khóa huấn luyện chuyên sâu trong vòng 8 tuần theo tiêu chuẩn quốc tế.\n- Được hướng dẫn trực tiếp bởi các Technical Lead, Solution Architect nhiều năm kinh nghiệm tại Australia và Việt Nam.\n- Thực hành quy trình phát triển phần mềm chuẩn Agile/Scrum, sử dụng các công cụ chuyên nghiệp: Jira, Confluence, Git, Teamwork.\n- Trực tiếp tham gia phát triển tính năng, viết unit test và fix bug trong các dự án thực tế về AI, Big Data, Blockchain và Backend.\n- Làm bài tốt nghiệp cuối khóa để đánh giá năng lực và cơ hội chuyển tiếp thành nhân viên chính thức (Junior Developer).\n\nYÊU CẦU ỨNG VIÊN:\n- Sinh viên năm cuối hoặc mới tốt nghiệp chuyên ngành Công nghệ thông tin, Khoa học máy tính, Kỹ thuật phần mềm.\n- Điểm trung bình tích lũy (GPA) đạt từ 7.0/10 trở lên.\n- Tư duy logic tốt, nắm vững kiến thức lập trình hướng đối tượng (OOP), cấu trúc dữ liệu và giải thuật.\n- Thành thạo ít nhất một ngôn ngữ lập trình cơ bản: C, C++, Java, C#, hoặc JavaScript / Python.\n- Có hiểu biết nền tảng về lập trình Web (HTML/CSS) và hệ quản trị cơ sở dữ liệu (SQL).\n- Tiếng Anh đọc hiểu tốt tài liệu chuyên ngành; ứng viên giao tiếp tiếng Anh tốt có lợi thế làm việc trực tiếp với khách hàng quốc tế.\n\nQUYỀN LỢI & ĐÃI NGỘ:\n- Phụ cấp thực tập: 1,000,000 VNĐ / tháng + Thưởng KPI dự án.\n- Tài trợ tối thiểu 70% chi phí các khóa học chứng chỉ công nghệ.\n- Cơ hội ký hợp đồng lao động chính thức ngay sau khi kết thúc kỳ thực tập.\n- Tham gia đầy đủ các hoạt động văn hóa: Team building, Happy Hour thứ 6 hàng tuần, CLB thể thao (Tennis, Pickleball)."
+  },
+  {
+    "doc_id": "JD_014_GAME_QA_REMOTE_XOAI",
+    "doc_type": "JD",
+    "title": "Job Description: Remote Game QA Engineer (Mobile Games & Fun Factor) - XOAI",
+    "language": "en",
+    "metadata": {
+      "company": "XOAI Games",
+      "department": "Mobile Game Quality Assurance",
+      "level": "Junior / Mid-level",
+      "salary_range": "Competitive",
+      "work_location": "Fully Remote (Ha Noi / Ho Chi Minh City / Anywhere in Vietnam)",
+      "working_days": "Monday - Friday (No OT)"
+    },
+    "content": "COMPANY: XOAI GAMES\nROLE: GAME QA ENGINEER (REMOTE - MOBILE GAMES & GAMEPLAY TESTING)\nLOCATION: 100% Remote (Ha Noi / Ho Chi Minh City)\n\nMISSION:\nWe are seeking a QA Engineer who goes beyond bug catching. You will play a vital role in shaping mobile game prototypes from day one, playtesting early playable builds, evaluating the emotional \"fun factor\", and providing actionable feedback on game feel, controls, and difficulty curves.\n\nRESPONSIBILITIES:\n- Formulate, execute, and maintain test cases, test checklists, and test plans for early game prototypes.\n- Conduct daily playtesting of early builds and provide critical evaluations of game responsiveness, tactile feedback (\"juiciness\"), controls, and pacing.\n- Evaluate prototype mechanics against global mobile gaming market trends to help the team decide which prototypes to scale.\n- Leverage modern AI tools to generate, organize, and accelerate test case creation and regression testing.\n- Report bugs with accurate repro steps, isolation logs, and video captures.\n- Coordinate daily testing status and blockers with game developers, artists, and game designers.\n\nSKILLS & REQUIREMENTS:\n- Genuine passion for mobile gaming and intuitive understanding of player psychology.\n- Strong eye for \"game feel\", animation polish, tactile feedback, and control responsiveness.\n- Comfortable testing unpolished, rough prototypes and prioritizing core gameplay viability over superficial glitches.\n- Experience in bug tracking tools, test case management, and clear technical bug documentation.\n- Proficiency in utilizing AI tools (ChatGPT, Claude, etc.) to enhance test coverage and speed up QA workflows.\n- Critical thinking, attention to detail, and excellent written English communication.\n\nPERKS:\n- 100% remote working environment: zero commute, flexible work hours.\n- Equal-opportunity, creative, and agile studio culture.\n- Direct exposure to game industry veterans and rapid prototype iteration."
+  },
+  {
+    "doc_id": "JD_015_SOFTWARE_ENGINEER_AI_OL",
+    "doc_type": "JD",
+    "title": "Job Description: Software Engineer (AI Coding Agent / .NET / Java) - OL Vietnam",
+    "language": "en",
+    "metadata": {
+      "company": "OL Vietnam (Orange Logic)",
+      "department": "Digital Asset Management Core Engineering",
+      "level": "Mid-Senior (3+ YOE)",
+      "salary_range": "Competitive (100% Gross Salary during probation)",
+      "work_location": "Saigon Trade Center (Ho Chi Minh) & 14 Lang Ha (Ha Noi)",
+      "working_days": "Monday - Friday (No OT)"
+    },
+    "content": "COMPANY: OL VIETNAM (ORANGE LOGIC)\nPOSITION: SOFTWARE ENGINEER (AI CODING AGENTS / BACKEND .NET / JAVA)\nLOCATIONS:\n- Saigon Trade Center, 37 Ton Duc Thang, District 1, Ho Chi Minh City\n- 14 Lang Ha, Thanh Cong, Ba Dinh, Ha Noi\n\nABOUT US:\nOrange Logic is the premier enterprise Digital Asset Management (DAM) platform trusted by global brands (BBC, Airbnb, Reuters, United Nations). We foster deep work, transparent meritocracy, and engineering autonomy.\n\nROLE PURPOSE:\nBuild and optimize high-throughput, enterprise-scale backend services powering millions of digital assets. Candidates are expected to actively leverage state-of-the-art AI coding agents to accelerate delivery while maintaining architectural excellence.\n\nKEY RESPONSIBILITIES:\n- Develop scalable backend features for high-concurrency enterprise asset management workloads.\n- Design resilient system architecture ensuring millisecond-level response times and high availability.\n- Write comprehensive automated unit tests and integration tests for all feature deliveries.\n- Perform rigorous peer code reviews to enforce code cleanliness and architectural consistency.\n- Actively utilize AI coding agents (Claude Code, GitHub Copilot, Cursor) across the development lifecycle: context preparation, agent prompting, verification, and PR delivery.\n\nREQUIREMENTS:\n- Bachelor's degree in Computer Science, Software Engineering, or related technical disciplines.\n- Demonstrated ability to leverage AI coding agents for complex feature development, debugging, and refactoring.\n- At least 3 years of hands-on experience developing web-based enterprise applications.\n- Proficiency in at least one modern backend language (C# / .NET, Java, or equivalent).\n- Strong grasp of data structures, algorithms, and design patterns.\n- Solid relational database fundamentals (SQL queries, indexing, transactions).\n- High proficiency in written and verbal English communication.\n\nWHY JOIN US:\n- 100% Gross salary during probation + 13th-month salary.\n- 18 days of annual leave (cashback allowed for unused days) + 4 days company trip leave.\n- Comprehensive premium healthcare coverage for employee plus 1 family member.\n- Multiple allowances (lunch, gym, parking, holiday vouchers).\n- Culture built around Deep Work, meritocracy, and distributed decision-making."
+  },
+  {
+    "doc_id": "JD_016_PHP_JAVA_RIVERCRANE",
+    "doc_type": "JD",
+    "title": "Tuyển dụng: Kỹ sư Lập trình Phần mềm Junior/Senior (PHP/Laravel, Java) - RiverCrane Vietnam",
+    "language": "vi",
+    "metadata": {
+      "company": "RiverCrane Vietnam",
+      "department": "Phát triển Nền tảng Thương mại Điện tử",
+      "level": "Junior / Senior (1-3+ YOE)",
+      "salary_range": "Thoả thuận cạnh tranh + Thưởng tháng 13",
+      "work_location": "Tầng 9 Havana Tower, 132 Hàm Nghi, Bến Thành, Quận 1 & Tầng 6 EBM Bldg, Bình Thạnh, TP. Hồ Chí Minh",
+      "working_days": "Thứ Hai - Thứ Sáu (Có tính lương làm thêm ngoài giờ nếu phát sinh)"
+    },
+    "content": "CÔNG TY: RIVERCRANE VIỆT NAM (TẬP ĐOÀN CÔNG NGHỆ NHẬT BẢN)\nVỊ TRÍ: KỸ SƯ LẬP TRÌNH PHẦN MỀM (PHP / LARAVEL / JAVA)\nĐỊA ĐIỂM LÀM VIỆC TẠI TP. HỒ CHÍ MINH:\n- Tầng 9, Tòa nhà Havana, 132 Hàm Nghi, Phường Bến Thành, Quận 1\n- Tầng 6, Tòa nhà EBM, 685 Điện Biên Phủ, Phường 25, Bình Thạnh\n\nLÝ DO CHỌN RIVERCRANE:\n- Tập đoàn toàn cầu trụ sở Tokyo, chiến lược phát triển ổn định và lâu dài.\n- Đài thọ toàn phần 100% chi phí đi đào tạo onsite 3 tháng tại Tokyo, Nhật Bản.\n- Tổng số ngày nghỉ phép hưởng lương lên đến 17 ngày/năm (bao gồm chế độ 5 ngày nghỉ hè đặc biệt).\n- Đóng bảo hiểm xã hội (BHXH) full 100% lương gross.\n\nMÔ TẢ CÔNG VIỆC:\n- Tham gia kiến trúc và phát triển hệ thống Thương mại Điện tử (E-Commerce) toàn cầu đa ngôn ngữ, multi-domain, phục vụ hàng triệu người dùng.\n- Thiết kế và lập trình hệ thống phân tán theo kiến trúc Microservices.\n- Đảm nhận toàn diện chu trình phát triển sản phẩm: Từ phân tích yêu cầu kỹ thuật, thiết kế database, code, review đến release và vận hành trên môi trường production chuẩn Nhật Bản.\n- Đề xuất và hiện thực hóa các giải pháp tối ưu hiệu năng cơ sở dữ liệu và tải hệ thống.\n\nYÊU CẦU NĂNG LỰC:\n- Tối thiểu 1 năm kinh nghiệm phân tích, thiết kế hệ thống phần mềm.\n- Tối thiểu 3 năm kinh nghiệm lập trình backend với PHP (Laravel Framework) hoặc Java (Spring Boot).\n- Thành thạo HTML5, CSS3, JavaScript, jQuery, AJAX; có kinh nghiệm với React Native là lợi thế lớn.\n- Nắm vững kiến trúc máy chủ Apache/Nginx, Linux, Network, bảo mật web và tối ưu cơ sở dữ liệu MySQL.\n- Tinh thần trách nhiệm cao, kỹ năng làm việc nhóm Agile, tuân thủ nghiêm ngặt quy trình chất lượng.\n\nCHẾ ĐỘ PHÚC LỢI NỔI BẬT:\n- Đánh giá tăng lương 1-2 lần/năm, thưởng tháng lương 13.\n- Gói bảo hiểm sức khỏe đặc biệt 2.5 - 3.5 triệu/người/năm.\n- Du lịch thường niên công ty (Cam Ranh, Vĩnh Hy, Phan Thiết, Đà Nẵng).\n- Quỹ đào tạo kỹ thuật (300$ - 1,000$/người) tham gia các khóa học chuyên sâu.\n- Chiều thứ 6 hàng tuần từ 14:30 là giờ tự nghiên cứu R&D nâng cao kiến thức công nghệ."
+  },
+  {
+    "doc_id": "JD_017_AI_AUTOMATION_BOSCH",
+    "doc_type": "JD",
+    "title": "Job Description: AI Automation Engineer (GenAI, Power Platform, Python) - Bosch Global Software Technologies",
+    "language": "en",
+    "metadata": {
+      "company": "Bosch Global Software Technologies Company Limited",
+      "department": "AI & Digital Process Automation",
+      "level": "Mid-level",
+      "salary_range": "Committed 13th-Month Bonus + Yearly Performance Bonus",
+      "work_location": "364 Cong Hoa Street, Tan Binh, Ho Chi Minh City",
+      "working_days": "Monday - Friday (No OT)"
+    },
+    "content": "COMPANY: BOSCH GLOBAL SOFTWARE TECHNOLOGIES COMPANY LIMITED\nPOSITION: AI AUTOMATION ENGINEER (GENAI / POWER PLATFORM / PYTHON)\nLOCATION: 364 Cong Hoa Street, Ward 13, Tan Binh District, Ho Chi Minh City\n\nABOUT BOSCH:\nBosch is a leading global supplier of technology and services. In our AI Automation team, we turn innovative ideas into reality by applying Generative AI and intelligent automation to simplify engineering and enterprise operations.\n\nKEY RESPONSIBILITIES:\n1. Process Discovery & Automation:\n- Analyze and identify repetitive workflows across engineering and management functions.\n- Create process maps and prioritize automation candidates based on business value, effort, and ROI.\n2. Develop Automation Solutions:\n- Build robust automation pipelines utilizing Microsoft Power Automate, Power Apps, Power BI, and Python.\n- Integrate data via REST APIs, Microsoft Teams, Microsoft 365, and GitHub.\n- Eliminate manual reporting through automated data collection, transformation, and alerting scripts.\n3. AI & Generative AI Applications:\n- Develop AI-assisted solutions for document summarization, action-item extraction, engineering knowledge retrieval, and defect classification.\n- Implement LLM applications utilizing Retrieval-Augmented Generation (RAG), AI Agents, Skills, and knowledge bases.\n4. Dashboards & Impact Measurement:\n- Build automated Power BI management dashboards tracking KPI metrics, hours saved, and cycle-time reduction.\n\nQUALIFICATIONS:\n- Bachelor's degree in Computer Science, Artificial Intelligence, Software Engineering, or related technical disciplines.\n- Strong programming skills in Python with solid software engineering principles.\n- Familiarity with Generative AI, LLMs, AI agents, Retrieval-Augmented Generation (RAG), and prompt engineering.\n- Experience setting up AI agents, skills, and knowledge bases.\n- Basic understanding of REST APIs, data integration, and SQL.\n- Excellent problem-solving, communication, and teamwork skills in an international English-speaking environment.\n- Nice to have: Knowledge of Power Automate, Power Apps, Power BI, Azure, RPA, and Git.\n\nBENEFITS & PERKS:\n- Work at one of Vietnam's Best Places to Work and Top 30 Most Innovative Global Companies.\n- 100% salary and social insurances during 2-month probation.\n- Guaranteed 13th-month bonus + attractive yearly performance bonus.\n- 16++ days of annual leave + 1-day birthday leave.\n- Premium health insurance for employee plus 2 family members.\n- Diverse training programs, onsite opportunities, and sports clubs (yoga, football, badminton)."
   }
 ]
