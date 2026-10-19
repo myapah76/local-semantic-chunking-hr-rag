@@ -3,7 +3,7 @@ services:
   postgres:
     image: pgvector/pgvector:pg16
     container_name: rbl_pgvector
-    restart: unless-stopped
+    restart: no
     environment:
       POSTGRES_USER: ${POSTGRES_USER:-postgres}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
@@ -25,7 +25,7 @@ services:
   ollama:
     image: ollama/ollama:latest
     container_name: rbl_ollama
-    restart: unless-stopped
+    restart: no
     ports:
       - "11434:11434"
     volumes:

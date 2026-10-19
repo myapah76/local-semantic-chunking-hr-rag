@@ -12,15 +12,14 @@ POSTGRES_DB = os.getenv("POSTGRES_DB", "hr_tech")
 
 DATABASE_URL = f"postgresql+psycopg2://{POSTGRES_USER}:{POSTGRES_PASSWORD}@{POSTGRES_HOST}:{POSTGRES_PORT}/{POSTGRES_DB}"
 
-engine = None
-SessionLocal = None
+engine = create_engine(DATABASE_URL, pool_pre_ping=True, echo=False)
+SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 def get_engine():
-    global engine, SessionLocal
-    if engine is None:
-        engine = create_engine(DATABASE_URL, pool_pre_ping=True, echo=False)
-        SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
     return engine
+
+def get_session():
+    return SessionLocal()
 
 def init_db():
     """Create all tables if they do not exist."""
