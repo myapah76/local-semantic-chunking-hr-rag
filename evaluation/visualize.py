@@ -15,7 +15,7 @@ def generate_evaluation_charts():
     sns.set_theme(style="whitegrid", palette="muted")
     plt.rcParams.update({"font.size": 11, "figure.autolayout": True})
 
-    # 1. RQ1 Chart: Retrieval Metrics Comparison
+    # 1. RQ1 Chart: Retrieval Metrics & Granularity Comparison (2 Subplots)
     df1 = pd.read_csv(rq1_path)
     # Simplify strategy names for plotting
     df1["Clean_Strategy"] = df1["Strategy"].apply(lambda s: s.split("(")[0])
@@ -28,24 +28,41 @@ def generate_evaluation_charts():
         value_name="Score"
     )
 
-    fig, ax = plt.subplots(figsize=(10, 6), dpi=300)
-    sns.barplot(data=metrics_df, x="Clean_Strategy", y="Score", hue="Metric", ax=ax, palette="deep")
-    ax.set_title("RQ1: Retrieval Performance Comparison Across Chunking Strategies", fontsize=14, weight="bold", pad=15)
-    ax.set_xlabel("Chunking Strategy", fontsize=12, labelpad=10)
-    ax.set_ylabel("Score (0.0 - 1.0)", fontsize=12)
-    ax.set_ylim(0, 1.1)
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(16, 6), dpi=300, gridspec_kw={"width_ratios": [1.35, 1.0]})
 
-    # Add data labels
-    for p in ax.patches:
+    # Subplot 1: Retrieval Quality
+    sns.barplot(data=metrics_df, x="Clean_Strategy", y="Score", hue="Metric", ax=ax1, palette="deep")
+    ax1.set_title("(a) Retrieval Performance (Recall@K & MRR)", fontsize=13, weight="bold", pad=12)
+    ax1.set_xlabel("Chunking Strategy", fontsize=11, labelpad=8)
+    ax1.set_ylabel("Score (0.0 - 1.0)", fontsize=11)
+    ax1.set_ylim(0, 1.15)
+    for p in ax1.patches:
         val = p.get_height()
         if val > 0:
-            ax.annotate(f"{val:.2f}",
+            ax1.annotate(f"{val:.2f}",
                         (p.get_x() + p.get_width() / 2., val),
-                        ha='center', va='bottom', fontsize=9, xytext=(0, 3),
+                        ha='center', va='bottom', fontsize=8.5, xytext=(0, 2),
                         textcoords='offset points')
 
+    # Subplot 2: Chunk Sizing & Granularity
+    sns.barplot(data=df1, x="Clean_Strategy", y="Avg Chunk Chars", hue="Clean_Strategy", ax=ax2, palette="crest", legend=False)
+    ax2.set_title("(b) Chunk Sizing: Avg Characters & Chunk Count", fontsize=13, weight="bold", pad=12)
+    ax2.set_xlabel("Chunking Strategy", fontsize=11, labelpad=8)
+    ax2.set_ylabel("Average Characters / Chunk", fontsize=11)
+    max_chars = df1["Avg Chunk Chars"].max()
+    ax2.set_ylim(0, max_chars * 1.25)
+    for idx, p in enumerate(ax2.patches):
+        chars = p.get_height()
+        chunks = df1.iloc[idx]["Total Chunks"]
+        if chars > 0:
+            ax2.annotate(f"{chars:.1f} chars\n({chunks} chunks)",
+                        (p.get_x() + p.get_width() / 2., chars),
+                        ha='center', va='bottom', fontsize=9, weight="bold", xytext=(0, 4),
+                        textcoords='offset points')
+
+    fig.suptitle("RQ1: Overall Retrieval & Chunk Granularity Comparison Across 4 Strategies", fontsize=15, weight="bold", y=1.02)
     chart1_path = os.path.join(reports_dir, "rq1_retrieval_comparison.png")
-    fig.savefig(chart1_path)
+    fig.savefig(chart1_path, bbox_inches="tight")
     plt.close(fig)
     print(f"Generated RQ1 chart: {chart1_path}")
 
