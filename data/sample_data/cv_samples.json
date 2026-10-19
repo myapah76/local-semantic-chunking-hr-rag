@@ -1,0 +1,41 @@
+[
+  {
+    "doc_id": "CV_001_NGUYEN_VAN_AN",
+    "doc_type": "CV",
+    "title": "CV - Nguyễn Văn An - Senior Fullstack Developer",
+    "language": "bilingual",
+    "metadata": {
+      "candidate_name": "Nguyễn Văn An",
+      "target_role": "Senior Fullstack Engineer",
+      "years_of_experience": 5,
+      "seniority": "Senior"
+    },
+    "content": "HỌ VÀ TÊN: NGUYỄN VĂN AN\nVị trí ứng tuyển: Senior Fullstack Engineer (React / Node.js / Python)\nEmail: an.nguyen@email.com | SĐT: 0912345678 | Địa chỉ: Hà Nội\n\nTỔNG QUAN NGHỀ NGHIỆP:\nLập trình viên Fullstack với hơn 5 năm kinh nghiệm thực chiến phát triển các hệ thống thương mại điện tử và fintech quy mô lớn. Có chuyên môn sâu về kiến trúc Microservices, RESTful API, tối ưu cơ sở dữ liệu PostgreSQL và quản lý CI/CD pipeline.\n\nKỸ NĂNG CHUYÊN MÔN:\n- Frontend: React.js, Next.js, Redux Toolkit, TailwindCSS, TypeScript, HTML5/CSS3.\n- Backend: Node.js (Express/NestJS), Python (FastAPI), Java (Spring Boot cơ bản).\n- Cơ sở dữ liệu: PostgreSQL, MongoDB, Redis Caching, pgvector.\n- Cloud & DevOps: Docker, Kubernetes, AWS (S3, EC2, RDS), GitHub Actions CI/CD.\n- Khác: System Design, TDD, Agile/Scrum, Git workflow.\n\nKINH NGHIỆM LÀM VIỆC:\n\n1. Senior Backend Engineer - FinTech Solutions Corp (03/2022 - Hiện tại)\n- Thiết kế và triển khai core payment gateway xử lý hơn 500,000 giao dịch/ngày với độ trễ p99 dưới 120ms bằng Node.js và PostgreSQL.\n- Tối ưu hóa truy vấn cơ sở dữ liệu phức tạp, triển khai chiến lược cache hai lớp với Redis, giúp giảm 45% tải CPU cho cụm DB chính.\n- Áp dụng kỹ thuật Vector Search với pgvector để xây dựng hệ thống phát hiện giao dịch gian lận thời gian thực.\n\n2. Fullstack Developer - TechAsia E-Commerce (06/2019 - 02/2022)\n- Xây dựng hệ thống quản lý đơn hàng đa kênh (OMS) phục vụ hơn 200 nhà bán hàng lớn.\n- Phát triển giao diện Dashboard bằng ReactJS và Next.js với tính năng Real-time Analytics qua WebSockets.\n- Tích hợp các cổng thanh toán VNPAY, MoMo và dịch vụ vận chuyển GHTK, GHN.\n\nHỌC VẤN & CHỨNG CHỈ:\n- Đại học Bách Khoa Hà Nội: Cử nhân Công nghệ Thông tin (GPA: 3.5/4.0 - Tốt nghiệp 2019)\n- Chứng chỉ AWS Certified Solutions Architect - Associate (2023)\n- IELTS 7.0 (2022)"
+  },
+  {
+    "doc_id": "CV_002_TRAN_THI_MAI",
+    "doc_type": "CV",
+    "title": "CV - Trần Thị Mai - Senior Data Scientist & AI Engineer",
+    "language": "en",
+    "metadata": {
+      "candidate_name": "Trần Thị Mai",
+      "target_role": "Data Scientist / AI Engineer",
+      "years_of_experience": 4,
+      "seniority": "Senior"
+    },
+    "content": "NAME: TRAN THI MAI\nTitle: Senior AI Engineer & NLP Specialist\nContact: mai.tran.ai@domain.vn | +84 987654321 | Ho Chi Minh City, Vietnam\n\nPROFESSIONAL SUMMARY:\nDedicated AI/ML Engineer with 4+ years of industry experience specializing in Natural Language Processing (NLP), Large Language Model fine-tuning, and Retrieval-Augmented Generation (RAG) pipelines. Proven track record in deploying quantized local models (Ollama, vLLM, TensorRT-LLM) on constrained hardware environments.\n\nCORE COMPETENCIES:\n- Machine Learning & Deep Learning: PyTorch, Hugging Face Transformers, Scikit-learn, LangChain, LlamaIndex.\n- NLP Specialization: Sentence Transformers, Semantic Chunking, Cross-encoders, Document Parsing, Named Entity Recognition (NER).\n- Generative AI & RAG: Local embeddings (Qwen, BGE-M3), Vector DBs (Chroma, pgvector, Milvus), Prompt Engineering, Re-ranking.\n- Programming & Tools: Python, C++, SQL, Docker, Linux, FastAPI, MLflow.\n\nPROFESSIONAL EXPERIENCE:\n\nLead NLP Engineer | SmartHR Automation JSC (01/2023 - Present)\n- Designed and implemented an enterprise RAG system for internal recruitment, enabling automated resume-to-job matching with 89% precision.\n- Benchmarked various document segmentation methods (Fixed-size vs Recursive vs Semantic Chunking), demonstrating a 14% improvement in retrieval recall for candidate experience sections.\n- Optimized embedding inference throughput by batching requests to local Ollama instances, reducing latency by 3x on consumer-grade GPUs.\n\nMachine Learning Engineer | DataVision AI Lab (08/2020 - 12/2022)\n- Built multilingual sentiment analysis pipelines for social media monitoring using fine-tuned PhoBERT and RoBERTa models.\n- Developed automated PDF tabular extraction algorithms using OCR and spatial heuristics for financial statements.\n\nEDUCATION:\nVNU HCM - University of Information Technology: B.S. in Computer Science (Honors Program, 2020)\nPublished 1 paper on multilingual document retrieval at KSE conference (2022)."
+  },
+  {
+    "doc_id": "CV_003_LE_HOANG_NAM",
+    "doc_type": "CV",
+    "title": "CV - Lê Hoàng Nam - HR Business Partner & Talent Acquisition",
+    "language": "vi",
+    "metadata": {
+      "candidate_name": "Lê Hoàng Nam",
+      "target_role": "HR Manager / Talent Acquisition Lead",
+      "years_of_experience": 6,
+      "seniority": "Lead"
+    },
+    "content": "HỌ TÊN: LÊ HOÀNG NAM\nVị trí: Trưởng nhóm Tuyển dụng & Đối tác Nhân sự (HRBP / Talent Acquisition Lead)\nEmail: nam.le.hr@gmail.com | Điện thoại: 0903112233 | Địa điểm: Đà Nẵng / Remote\n\nMỤC TIÊU NGHỀ NGHIỆP:\nChuyên gia Nhân sự với hơn 6 năm kinh nghiệm trong lĩnh vực Tech Recruiting, xây dựng thương hiệu nhà tuyển dụng (Employer Branding) và thiết lập quy trình quản trị hiệu suất nhân sự (OKR/KPI). Định hướng trở thành HR Director tại các tập đoàn công nghệ đổi mới sáng tạo.\n\nKINH NGHIỆM CHUYÊN MÔN:\n\n1. Talent Acquisition Lead - TechViet Software (05/2021 - Hiện tại)\n- Lãnh đạo đội ngũ tuyển dụng gồm 5 thành viên, trực tiếp phụ trách tuyển dụng các vị trí Senior/Lead Tech (Solution Architect, DevOps, AI Engineer).\n- Tuyển dụng thành công hơn 180 nhân sự công nghệ trong năm 2023 với tỷ lệ ứng viên vượt qua thời gian thử việc đạt 94%.\n- Xây dựng ma trận phỏng vấn hành vi và phỏng vấn năng lực chuẩn hóa (Competency-based Interview), rút ngắn thời gian tuyển dụng (Time-to-hire) từ 42 ngày xuống 26 ngày.\n\n2. HR Generalist / Recruiter - Alpha Global Tech (10/2018 - 04/2021)\n- Phụ trách toàn bộ quy trình Onboarding, quản lý hợp đồng lao động, giải quyết chế độ phúc lợi và bảo hiểm xã hội (BHXH) cho hơn 300 nhân viên.\n- Tổ chức các chương trình đào tạo kỹ năng mềm và gắn kết văn hóa nội bộ (Employee Engagement).\n\nKỸ NĂNG QUẢN TRỊ & CÔNG CỤ:\n- Kỹ năng tuyển dụng Headhunting trên LinkedIn Recruiter, TopCV, VietnamWorks.\n- Quản trị hệ thống ATS (Applicant Tracking System): Greenhouse, BambooHR, Lark.\n- Hiểu biết sâu sắc về Luật Lao động Việt Nam, quy chế giải quyết tranh chấp và chính sách lương thưởng 3P.\n\nHỌC VẤN:\n- Đại học Kinh tế Quốc dân: Cử nhân Quản trị Nhân lực (2018)\n- Chứng chỉ Chuyên gia Quản trị Nhân sự Quốc tế SHRM-CP (2022)"
+  }
+]

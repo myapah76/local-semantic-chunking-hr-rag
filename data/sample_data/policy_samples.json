@@ -1,0 +1,26 @@
+[
+  {
+    "doc_id": "POLICY_001_PROBATION_AND_SALARY",
+    "doc_type": "POLICY",
+    "title": "Quy chế Thử việc, Đánh giá và Chế độ Lương thưởng Nội bộ",
+    "language": "vi",
+    "metadata": {
+      "doc_category": "Chính sách nhân sự",
+      "effective_date": "2024-01-01",
+      "scope": "Toàn thể cán bộ nhân viên"
+    },
+    "content": "CÔNG TY CỔ PHẦN CÔNG NGHỆ HRTECH\nQUY CHẾ QUẢN TRỊ NHÂN SỰ SỐ 08/2024/QC-NS\nVỀ THỬ VIỆC, ĐÁNH GIÁ VÀ CHẾ ĐỘ TIỀN LƯƠNG\n\nCHƯƠNG I: QUY ĐỊNH VỀ THỬ VIỆC\nĐiều 1: Thời gian thử việc\n1. Thời gian thử việc áp dụng đối với các vị trí chuyên môn kỹ thuật cao, nhân sự quản lý (Senior, Lead, Manager) là 60 ngày (02 tháng) theo đúng quy định của Bộ luật Lao động.\n2. Đối với các vị trí nhân viên hành chính, thực tập sinh hoặc chuyên viên hỗ trợ, thời gian thử việc là 30 ngày (01 tháng).\n\nĐiều 2: Chế độ lương trong thời gian thử việc\n1. Người lao động trong thời gian thử việc được hưởng tối thiểu 85% mức lương chính thức ghi nhận trong Thư mời nhận việc (Offer Letter).\n2. Trường hợp nhân viên đạt thành tích xuất sắc và hoàn thành mục tiêu thử việc trước thời hạn, Trưởng bộ phận có quyền đề xuất kết thúc thử việc sớm sau 01 tháng và ký hợp đồng lao động chính thức.\n\nCHƯƠNG II: CHẾ ĐỘ ĐÁNH GIÁ HIỆU SUẤT VÀ TĂNG LƯƠNG\nĐiều 3: Chu kỳ đánh giá hiệu suất\n1. Công ty tiến hành đánh giá hiệu suất nhân viên theo mô hình OKR định kỳ 02 lần/năm: Kỳ 1 vào tháng 06 và Kỳ 2 vào tháng 12.\n2. Thang điểm đánh giá gồm 5 mức: A (Xuất sắc - Vượt kỳ vọng), B (Tốt - Đạt kỳ vọng), C (Đạt yêu cầu), D (Cần cải thiện) và E (Không đạt).\n\nĐiều 4: Thưởng và Xét duyệt tăng lương\n1. Nhân viên đạt xếp loại A và B trong kỳ đánh giá sẽ được ưu tiên xét tăng lương định kỳ với mức tăng từ 10% đến 25% tùy theo ngân sách của khối.\n2. Thưởng lương tháng 13 được tính dựa trên số tháng làm việc thực tế trong năm tài chính của người lao động."
+  },
+  {
+    "doc_id": "POLICY_002_LEAVE_AND_WFH",
+    "doc_type": "POLICY",
+    "title": "Quy định về Chế độ Nghỉ phép năm và Làm việc từ xa (WFH)",
+    "language": "vi",
+    "metadata": {
+      "doc_category": "Nội quy lao động",
+      "effective_date": "2024-03-15",
+      "scope": "Toàn thể cán bộ nhân viên"
+    },
+    "content": "QUY ĐỊNH NỘI BỘ VỀ NGHỈ PHÉP VÀ LÀM VIỆC TỪ XA (REMOTE / HYBRID)\nBan hành kèm theo Quyết định số 15/QĐ-HRTECH\n\nPHẦN A: CHẾ ĐỘ NGHỈ PHÉP NĂM\n1. Tiêu chuẩn phép năm: Người lao động làm việc đủ 12 tháng tại công ty được hưởng 14 ngày nghỉ phép năm hưởng nguyên lương. Cứ mỗi 03 năm làm việc liên tục, nhân viên được cộng thêm 01 ngày phép thâm niên.\n2. Quy trình xin nghỉ phép: Nhân viên cần nộp đơn xin nghỉ phép qua hệ thống cổng thông tin nhân sự nội bộ (HR Portal) trước tối thiểu 02 ngày làm việc đối với phép nghỉ từ 1 đến 2 ngày, và trước 05 ngày đối với phép nghỉ từ 3 ngày trở lên.\n3. Chuyển phép sang năm sau: Số ngày phép năm chưa sử dụng hết trong năm hiện tại được phép chuyển sang quý I của năm kế tiếp (hạn chót sử dụng là ngày 31 tháng 03). Sau thời điểm này, số phép tồn sẽ tự động hết hiệu lực.\n\nPHẦN B: CHÍNH SÁCH LÀM VIỆC TỪ XA (WORK FROM HOME - WFH)\n1. Định mức WFH: Mỗi nhân viên chính thức thuộc khối Công nghệ (Software Development, AI, QA) được quyền đăng ký làm việc từ xa tối đa 02 ngày mỗi tuần, với điều kiện có sự phê duyệt trước của Quản lý trực tiếp.\n2. Trách nhiệm khi làm việc từ xa: Nhân viên WFH phải đảm bảo luôn trực tuyến trên hệ thống liên lạc nội bộ (Slack/Teams) trong khung giờ hành chính từ 08:30 đến 17:30, tham gia đầy đủ các cuộc họp Daily Scrum và hoàn thành đúng tiến độ cam kết trong Sprint."
+  }
+]

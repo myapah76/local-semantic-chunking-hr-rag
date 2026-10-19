@@ -1,0 +1,28 @@
+[
+  {
+    "doc_id": "JD_001_SENIOR_FULLSTACK",
+    "doc_type": "JD",
+    "title": "Mô tả công việc: Kỹ sư Fullstack Senior (React / Node.js)",
+    "language": "vi",
+    "metadata": {
+      "department": "Engineering",
+      "level": "Senior",
+      "salary_range": "$1800 - $2800",
+      "work_location": "Hà Nội / Hybrid"
+    },
+    "content": "CÔNG TY CỔ PHẦN CÔNG NGHỆ TÀI CHÍNH NEXTFIN\nTHÔNG BÁO TUYỂN DỤNG: SENIOR FULLSTACK DEVELOPER (REACT / NODE.JS)\n\n1. GIỚI THIỆU CÔNG TY:\nNextFin là fintech tiên phong cung cấp giải pháp tài chính số và cổng thanh toán tự động tại Đông Nam Á. Chúng tôi đang tìm kiếm các kỹ sư công nghệ tài năng để mở rộng hạ tầng xử lý hàng triệu giao dịch hàng ngày.\n\n2. TRÁCH NHIỆM CÔNG VIỆC (RESPONSIBILITIES):\n- Thiết kế kiến trúc và phát triển các module cốt lõi của nền tảng thanh toán và ví điện tử.\n- Xây dựng giao diện web ứng dụng hiện đại, tối ưu trải nghiệm người dùng (UX) và tốc độ tải trang bằng ReactJS / Next.js.\n- Phát triển các RESTful APIs và Microservices hiệu năng cao bằng Node.js / TypeScript kết nối cơ sở dữ liệu PostgreSQL.\n- Triển khai giải pháp phân vùng dữ liệu và bộ nhớ đệm (Caching với Redis) để chịu tải cao trong các đợt flash sale.\n- Phối hợp cùng đội ngũ DevOps thiết lập quy trình tự động hóa CI/CD với Docker và GitHub Actions.\n\n3. YÊU CẦU ỨNG VIÊN (REQUIREMENTS):\n- Có tối thiểu 4 năm kinh nghiệm làm việc thực tế với cả Frontend (React.js, Next.js) và Backend (Node.js, Express/NestJS).\n- Thành thạo thiết kế schema, tối ưu hóa câu lệnh SQL, index và transaction trong cơ sở dữ liệu PostgreSQL.\n- Có kinh nghiệm thực tế với caching (Redis), kiến trúc hướng sự kiện (Event-driven Architecture / Kafka / RabbitMQ).\n- Có tư duy thiết kế hệ thống phân tán (Distributed System Design), bảo mật thông tin (OWASP, JWT, OAuth2).\n- Khả năng đọc hiểu tài liệu kỹ thuật tiếng Anh tốt; kỹ năng giải quyết vấn đề và làm việc nhóm Agile.\n\n4. CHẾ ĐỘ ĐÃI NGỘ & PHÚC LỢI (BENEFITS):\n- Mức lương cạnh tranh: Từ 40,000,000 VNĐ đến 65,000,000 VNĐ / tháng theo năng lực.\n- Thưởng tháng lương thứ 13 + thưởng hiệu quả kinh doanh dự án theo quý.\n- Được cấp MacBook Pro M-series cấu hình cao phục vụ công việc.\n- Gói bảo hiểm sức khỏe toàn diện PTI Premium cho nhân viên và gia đình.\n- Làm việc theo mô hình Hybrid linh hoạt: 2 ngày làm việc tại nhà (WFH) mỗi tuần."
+  },
+  {
+    "doc_id": "JD_002_NLP_AI_ENGINEER",
+    "doc_type": "JD",
+    "title": "Job Description: Senior AI / NLP Research Engineer (RAG Systems)",
+    "language": "en",
+    "metadata": {
+      "department": "AI Research Lab",
+      "level": "Senior",
+      "salary_range": "$2500 - $3500",
+      "work_location": "Ho Chi Minh City"
+    },
+    "content": "ORGANIZATION: COGNITIVE HR SOLUTIONS\nOPEN POSITION: SENIOR AI & NLP RESEARCH ENGINEER (LOCAL RAG PIPELINES)\n\nABOUT US:\nCognitive HR is building next-generation intelligent recruitment and talent analytics software. We focus on on-premise, privacy-preserving enterprise AI systems.\n\nPRIMARY RESPONSIBILITIES:\n- Architect, build, and benchmark end-to-end Retrieval-Augmented Generation (RAG) pipelines for HR document understanding (CV parsing, job-matching, competency gap detection).\n- Research and implement advanced semantic chunking methods and document segmentation algorithms that outperform standard fixed-window approaches.\n- Evaluate and fine-tune multilingual embedding models (e.g. Qwen, BGE, PhoBERT) to achieve state-of-the-art retrieval accuracy across Vietnamese and English corpora.\n- Optimize local model inference and GPU memory allocation (RTX/Tesla series) via vLLM, Ollama, and INT4/INT8 quantization.\n- Build evaluation benchmarks measuring Recall@K, MRR, and latency trade-offs.\n\nREQUIRED QUALIFICATIONS:\n- 3+ years of hands-on experience in Machine Learning and Deep Learning with PyTorch or TensorFlow.\n- Deep understanding of Vector Databases (PostgreSQL with pgvector, Chroma, Qdrant) and similarity search metrics.\n- Experience with LangChain, LlamaIndex, or custom semantic splitter implementations.\n- Strong proficiency in Python, FastAPI, Docker, and Linux environments.\n- Good knowledge of NLP concepts: tokenization, attention mechanisms, cross-encoders, and reciprocal rank fusion.\n\nPERKS & ADVANTAGES:\n- Attractive compensation package: $2,500 - $3,500 net per month.\n- High-performance on-premise GPU workstations provided for research.\n- Annual educational budget of $1,000 for AI conferences, certifications, and courses.\n- Flexible working hours and 18 days of paid annual leave."
+  }
+]

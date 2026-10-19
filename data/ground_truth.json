@@ -1,0 +1,110 @@
+[
+  {
+    "query_id": "Q_CV_01",
+    "query": "Ứng viên Nguyễn Văn An có bao nhiêu năm kinh nghiệm và đã từng tối ưu payment gateway như thế nào?",
+    "doc_type": "CV",
+    "target_doc_id": "CV_001_NGUYEN_VAN_AN",
+    "ground_truth_snippets": [
+      "5 năm kinh nghiệm thực chiến",
+      "500,000 giao dịch/ngày với độ trễ p99 dưới 120ms"
+    ],
+    "description": "Kiểm tra khả năng giữ nguyên vẹn đoạn lịch sử kinh nghiệm làm việc chuyên sâu của ứng viên mà không bị cắt nửa chừng.",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q_CV_02",
+    "query": "Ứng viên Trần Thị Mai có kinh nghiệm gì về Semantic Chunking và triển khai mô hình cục bộ?",
+    "doc_type": "CV",
+    "target_doc_id": "CV_002_TRAN_THI_MAI",
+    "ground_truth_snippets": [
+      "Semantic Chunking",
+      "Ollama",
+      "14% improvement in retrieval recall"
+    ],
+    "description": "Kiểm tra truy xuất kỹ năng RAG chuyên sâu từ CV tiếng Anh.",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "Q_CV_03",
+    "query": "Lê Hoàng Nam đã giảm thời gian tuyển dụng (Time-to-hire) xuống bao nhiêu ngày?",
+    "doc_type": "CV",
+    "target_doc_id": "CV_003_LE_HOANG_NAM",
+    "ground_truth_snippets": [
+      "rút ngắn thời gian tuyển dụng (Time-to-hire) từ 42 ngày xuống 26 ngày"
+    ],
+    "description": "Kiểm tra truy xuất số liệu định lượng thành tích trong CV HR.",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "Q_JD_01",
+    "query": "Vị trí Senior Fullstack Developer yêu cầu kinh nghiệm với PostgreSQL và Redis cụ thể là gì?",
+    "doc_type": "JD",
+    "target_doc_id": "JD_001_SENIOR_FULLSTACK",
+    "ground_truth_snippets": [
+      "tối ưu hóa câu lệnh SQL, index và transaction trong cơ sở dữ liệu PostgreSQL",
+      "kinh nghiệm thực tế với caching (Redis)"
+    ],
+    "description": "Kiểm tra khả năng phân tách đúng khối Requirements mà không bị trộn lẫn với Benefits trong JD.",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q_JD_02",
+    "query": "Chế độ đãi ngộ và chính sách làm việc tại nhà WFH của vị trí Senior Fullstack Developer là gì?",
+    "doc_type": "JD",
+    "target_doc_id": "JD_001_SENIOR_FULLSTACK",
+    "ground_truth_snippets": [
+      "2 ngày làm việc tại nhà (WFH) mỗi tuần",
+      "40,000,000 VNĐ đến 65,000,000 VNĐ"
+    ],
+    "description": "Kiểm tra truy xuất khối Benefits và quyền lợi nhân viên.",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "Q_JD_03",
+    "query": "Vị trí Senior AI & NLP Research Engineer yêu cầu kinh nghiệm gì về local model inference và GPU?",
+    "doc_type": "JD",
+    "target_doc_id": "JD_002_NLP_AI_ENGINEER",
+    "ground_truth_snippets": [
+      "Optimize local model inference and GPU memory allocation",
+      "vLLM, Ollama, and INT4/INT8 quantization"
+    ],
+    "description": "Kiểm tra truy xuất điều kiện kỹ thuật local AI trong JD tiếng Anh.",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q_POL_01",
+    "query": "Mức lương thử việc tại công ty được tính bao nhiêu phần trăm lương chính thức và thời gian thử việc vị trí Senior là bao lâu?",
+    "doc_type": "POLICY",
+    "target_doc_id": "POLICY_001_PROBATION_AND_SALARY",
+    "ground_truth_snippets": [
+      "hưởng tối thiểu 85% mức lương chính thức",
+      "chuyên môn kỹ thuật cao, nhân sự quản lý (Senior, Lead, Manager) là 60 ngày"
+    ],
+    "description": "Kiểm tra truy xuất đồng thời thời hạn thử việc và tỷ lệ phần trăm lương thử việc từ quy chế nội bộ.",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q_POL_02",
+    "query": "Nhân viên làm việc bao lâu thì được cộng thêm ngày phép thâm niên và số ngày phép tồn chuyển sang năm sau có hạn chót là khi nào?",
+    "doc_type": "POLICY",
+    "target_doc_id": "POLICY_002_LEAVE_AND_WFH",
+    "ground_truth_snippets": [
+      "Cứ mỗi 03 năm làm việc liên tục, nhân viên được cộng thêm 01 ngày phép thâm niên",
+      "hạn chót sử dụng là ngày 31 tháng 03"
+    ],
+    "description": "Kiểm tra truy xuất chi tiết điều kiện thâm niên và thời hạn chuyển phép trong chính sách nghỉ phép.",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q_POL_03",
+    "query": "Nhân viên khối Công nghệ được WFH tối đa mấy ngày một tuần và cần tuân thủ quy định gì trong khung giờ nào?",
+    "doc_type": "POLICY",
+    "target_doc_id": "POLICY_002_LEAVE_AND_WFH",
+    "ground_truth_snippets": [
+      "đăng ký làm việc từ xa tối đa 02 ngày mỗi tuần",
+      "khung giờ hành chính từ 08:30 đến 17:30"
+    ],
+    "description": "Kiểm tra truy xuất quy định giờ giấc và số ngày WFH tối đa.",
+    "difficulty": "easy"
+  }
+]

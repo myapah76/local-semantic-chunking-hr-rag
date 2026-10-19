@@ -1,0 +1,13 @@
+Strategy,Doc Type,Query Count,Recall@3,Recall@5,MRR
+"FixedSize(size=500,overlap=100)",CV,3,0.8889,1.0,0.7778
+"FixedSize(size=500,overlap=100)",JD,3,0.3333,1.0,0.5
+"FixedSize(size=500,overlap=100)",POLICY,3,1.0,1.0,1.0
+"SentenceBased(N=3,overlap=1)",CV,3,0.6111,0.8889,0.8333
+"SentenceBased(N=3,overlap=1)",JD,3,0.3333,0.8333,0.75
+"SentenceBased(N=3,overlap=1)",POLICY,3,0.8333,1.0,0.7778
+"ParagraphBased(min=100,max=1000)",CV,3,1.0,1.0,1.0
+"ParagraphBased(min=100,max=1000)",JD,3,1.0,1.0,0.8333
+"ParagraphBased(min=100,max=1000)",POLICY,3,1.0,1.0,1.0
+LocalSemantic(thresh=0.85),CV,3,0.7222,1.0,0.8333
+LocalSemantic(thresh=0.85),JD,3,0.6667,0.6667,0.7778
+LocalSemantic(thresh=0.85),POLICY,3,0.8333,1.0,1.0
