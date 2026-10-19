@@ -1,0 +1,72 @@
+services:
+  # 1. PostgreSQL with pgvector extension
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: rbl_pgvector
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+      POSTGRES_DB: ${POSTGRES_DB:-hr_tech}
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgvector_data:/var/lib/postgresql/data
+      - ./init-db/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d hr_tech"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    networks:
+      - rbl_network
+
+  # 2. Ollama running local embedding model
+  ollama:
+    image: ollama/ollama:latest
+    container_name: rbl_ollama
+    restart: unless-stopped
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_models:/root/.ollama
+    environment:
+      - OLLAMA_KEEP_ALIVE=24h
+    # GPU Acceleration (Uses NVIDIA RTX GPU if NVIDIA Container Toolkit is installed)
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    networks:
+      - rbl_network
+
+  # 3. Automatically pull the required embedding model (qwen3-embedding:0.6b)
+  ollama-pull-model:
+    image: curlimages/curl:latest
+    container_name: rbl_ollama_pull
+    restart: "no"
+    depends_on:
+      - ollama
+    networks:
+      - rbl_network
+    command: >
+      sh -c "
+        echo 'Waiting for Ollama daemon to initialize...'
+        until curl -s http://ollama:11434/api/tags > /dev/null; do
+          sleep 2
+        done
+        echo 'Ollama is online! Pulling model: qwen3-embedding:0.6b...'
+        curl -X POST http://ollama:11434/api/pull -d '{\"name\": \"qwen3-embedding:0.6b\", \"stream\": false}'
+        echo 'Model qwen3-embedding:0.6b pulled and ready to use!'
+      "
+
+volumes:
+  pgvector_data:
+  ollama_models:
+
+networks:
+  rbl_network:
+    driver: bridge
