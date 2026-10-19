@@ -11,17 +11,21 @@ class Config:
     embedding_batch_size: int = 50
     embedding_timeout: int = 60
 
-    # Semantic Chunker Settings
-    semantic_breakpoint_threshold: float = 0.85  # Percentile or cosine threshold
-    semantic_min_chunk_size: int = 50            # Minimum characters per chunk
+    # Semantic Chunker Settings (Small Chunk: ~500 - 1.200 chars / 128 - 256 tokens)
+    semantic_breakpoint_threshold: float = 0.40  # Percentile / cosine breakpoint threshold
+    semantic_min_chunk_size: int = 400           # Minimum characters per chunk
 
-    # Fixed Size Chunker Settings
-    fixed_chunk_size: int = 500                  # Character/token length
-    fixed_chunk_overlap: int = 100               # Overlap length
+    # Fixed Size Chunker Settings (Small Chunk: ~500 - 1.200 chars / 128 - 256 tokens)
+    fixed_chunk_size: int = 800                  # Character/token length
+    fixed_chunk_overlap: int = 150               # Overlap length
 
-    # Sentence Chunker Settings
+    # Sentence Chunker Settings (Sentence Level: ~100 - 250 chars / 30 - 70 tokens)
     sentence_batch_size: int = 3                 # Sentences per chunk
     sentence_overlap: int = 1                    # Sentence overlap
+
+    # Paragraph Chunker Settings (Medium Chunk: ~1.200 - 2.500 chars / 256 - 512 tokens)
+    paragraph_min_chars: int = 300               # Minimum paragraph character length
+    paragraph_max_chars: int = 2000              # Maximum paragraph character length
 
     # Evaluation Settings
     top_k_values: List[int] = (3, 5, 10)

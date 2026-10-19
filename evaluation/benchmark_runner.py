@@ -40,8 +40,8 @@ class BenchmarkRunner:
         self.chunkers: List[BaseChunker] = [
             FixedSizeChunker(chunk_size=config.fixed_chunk_size, chunk_overlap=config.fixed_chunk_overlap),
             SentenceChunker(sentences_per_chunk=config.sentence_batch_size, sentence_overlap=config.sentence_overlap),
-            ParagraphChunker(min_paragraph_chars=100, max_paragraph_chars=1000),
-            LocalSemanticChunker(similarity_threshold=config.semantic_breakpoint_threshold)
+            ParagraphChunker(min_paragraph_chars=config.paragraph_min_chars, max_paragraph_chars=config.paragraph_max_chars),
+            LocalSemanticChunker(similarity_threshold=config.semantic_breakpoint_threshold, min_chunk_size=config.semantic_min_chunk_size)
         ]
 
     def run_all(self):

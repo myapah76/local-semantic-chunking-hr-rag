@@ -159,10 +159,10 @@ def search_pgvector(query: str, top_k: int = 5, strategy: Optional[str] = None) 
 def get_default_chunkers() -> List[BaseChunker]:
     """Return all 4 benchmark chunking strategies configured in config.py."""
     return [
-        LocalSemanticChunker(similarity_threshold=config.semantic_breakpoint_threshold),
+        LocalSemanticChunker(similarity_threshold=config.semantic_breakpoint_threshold, min_chunk_size=config.semantic_min_chunk_size),
         FixedSizeChunker(chunk_size=config.fixed_chunk_size, chunk_overlap=config.fixed_chunk_overlap),
         SentenceChunker(sentences_per_chunk=config.sentence_batch_size, sentence_overlap=config.sentence_overlap),
-        ParagraphChunker(min_paragraph_chars=100, max_paragraph_chars=1000)
+        ParagraphChunker(min_paragraph_chars=config.paragraph_min_chars, max_paragraph_chars=config.paragraph_max_chars)
     ]
 
 def import_documents(
