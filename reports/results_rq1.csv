@@ -1,5 +1,5 @@
 Strategy,Recall@3,Recall@5,MRR,Total Chunks,Avg Chunk Chars,Latency (ms/doc),Peak RAM (MB),Peak VRAM (MB)
-"FixedSize(size=800,overlap=150)",1.0,1.0,0.9444,99,724.5,0.1,32.31,2398.0
-"SentenceBased(N=3,overlap=1)",1.0,1.0,0.8889,381,234.2,0.12,38.15,2398.0
-"ParagraphBased(min=300,max=2000)",1.0,1.0,1.0,45,1359.4,0.05,49.65,2398.0
-LocalSemantic(thresh=0.4),1.0,1.0,0.9444,104,585.5,440.32,40.75,2398.0
+"FixedSize(size=800,overlap=150)",1.0,1.0,0.8556,146,727.9,0.05,32.94,2398.0
+"SentenceBased(N=3,overlap=1)",0.9,1.0,0.8833,559,238.3,0.38,40.43,2398.0
+"ParagraphBased(min=300,max=2000)",1.0,1.0,1.0,68,1337.9,0.05,58.67,2398.0
+LocalSemantic(thresh=0.4),1.0,1.0,0.8889,166,545.8,532.87,43.3,2398.0

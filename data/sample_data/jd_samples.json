@@ -249,5 +249,155 @@
       "working_days": "Monday - Friday (No OT)"
     },
     "content": "COMPANY: BOSCH GLOBAL SOFTWARE TECHNOLOGIES COMPANY LIMITED\nPOSITION: AI AUTOMATION ENGINEER (GENAI / POWER PLATFORM / PYTHON)\nLOCATION: 364 Cong Hoa Street, Ward 13, Tan Binh District, Ho Chi Minh City\n\nABOUT BOSCH:\nBosch is a leading global supplier of technology and services. In our AI Automation team, we turn innovative ideas into reality by applying Generative AI and intelligent automation to simplify engineering and enterprise operations.\n\nKEY RESPONSIBILITIES:\n1. Process Discovery & Automation:\n- Analyze and identify repetitive workflows across engineering and management functions.\n- Create process maps and prioritize automation candidates based on business value, effort, and ROI.\n2. Develop Automation Solutions:\n- Build robust automation pipelines utilizing Microsoft Power Automate, Power Apps, Power BI, and Python.\n- Integrate data via REST APIs, Microsoft Teams, Microsoft 365, and GitHub.\n- Eliminate manual reporting through automated data collection, transformation, and alerting scripts.\n3. AI & Generative AI Applications:\n- Develop AI-assisted solutions for document summarization, action-item extraction, engineering knowledge retrieval, and defect classification.\n- Implement LLM applications utilizing Retrieval-Augmented Generation (RAG), AI Agents, Skills, and knowledge bases.\n4. Dashboards & Impact Measurement:\n- Build automated Power BI management dashboards tracking KPI metrics, hours saved, and cycle-time reduction.\n\nQUALIFICATIONS:\n- Bachelor's degree in Computer Science, Artificial Intelligence, Software Engineering, or related technical disciplines.\n- Strong programming skills in Python with solid software engineering principles.\n- Familiarity with Generative AI, LLMs, AI agents, Retrieval-Augmented Generation (RAG), and prompt engineering.\n- Experience setting up AI agents, skills, and knowledge bases.\n- Basic understanding of REST APIs, data integration, and SQL.\n- Excellent problem-solving, communication, and teamwork skills in an international English-speaking environment.\n- Nice to have: Knowledge of Power Automate, Power Apps, Power BI, Azure, RPA, and Git.\n\nBENEFITS & PERKS:\n- Work at one of Vietnam's Best Places to Work and Top 30 Most Innovative Global Companies.\n- 100% salary and social insurances during 2-month probation.\n- Guaranteed 13th-month bonus + attractive yearly performance bonus.\n- 16++ days of annual leave + 1-day birthday leave.\n- Premium health insurance for employee plus 2 family members.\n- Diverse training programs, onsite opportunities, and sports clubs (yoga, football, badminton)."
+  },
+  {
+    "doc_id": "JD_018_CYBERSECURITY_ENGINEER",
+    "doc_type": "JD",
+    "title": "Job Description: Senior Information Security / Cyber Security Engineer - Techcom Securities",
+    "language": "en",
+    "metadata": {
+      "company": "Techcom Securities (TCBS)",
+      "department": "Information Security & DevSecOps",
+      "level": "Senior (3+ YOE)",
+      "salary_range": "45,000,000 - 70,000,000 VND + Tech Performance Bonus",
+      "work_location": "Techcombank Tower, 119 Tran Duy Hung, Cau Giay, Ha Noi",
+      "working_days": "Monday - Friday"
+    },
+    "content": "COMPANY: TECHCOM SECURITIES (TCBS)\nPOSITION: SENIOR INFORMATION SECURITY / CYBER SECURITY ENGINEER\nLOCATION: Techcombank Tower, 119 Tran Duy Hung, Cau Giay, Ha Noi\n\nABOUT US:\nTCBS is the leading digital wealth and securities trading platform in Vietnam, processing billions of dollars in equities and bond transactions. Security and financial regulatory compliance are at the foundation of our engineering excellence.\n\nROLE MISSION:\nProtect our financial cloud infrastructure, trading APIs, and proprietary wealth algorithms against advanced persistent threats (APT), fraudulent transactions, and unauthorized access.\n\nKEY RESPONSIBILITIES:\n- Monitor, analyze, and investigate security events from hybrid cloud infrastructure using enterprise SIEM platforms (Splunk, Elastic Security).\n- Formulate, tune, and maintain correlation rules and threat hunting queries mapped to the MITRE ATT&CK matrix.\n- Conduct regular vulnerability scans across cloud workloads and lead remediation sprints with software engineering teams.\n- Lead incident response procedures for Tier 2/3 security incidents, perform memory and network forensics, and formulate post-mortem RCA reports.\n- Ensure technical compliance with State Bank of Vietnam regulations, ISO/IEC 27001, and PCI-DSS Level 1 standards.\n\nREQUIRED QUALIFICATIONS:\n- At least 3 years of hands-on experience in information security, SOC analysis, or DevSecOps.\n- Proven expertise in enterprise SIEM administration (Splunk preferred), writing complex SPL queries and dashboard alerts.\n- Solid understanding of network protocols, packet capture analysis (Wireshark/Zeek), and web application vulnerabilities (OWASP Top 10).\n- Proficient in scripting (Python, Bash) to automate incident investigation and threat intelligence ingestion.\n- Professional certifications (CompTIA Security+, CEH, CISSP, or AWS Security Specialty) are strongly advantageous.\n\nBENEFITS & CULTURE:\n- High-impact fintech environment with top-tier compensation packages.\n- 13th month guaranteed salary + attractive performance-based equity bonuses.\n- Premium health and dental insurance for employee and immediate family.\n- Clear professional development pathway with fully sponsored certification budgets ($1,500/year)."
+  },
+  {
+    "doc_id": "JD_019_PRODUCT_MANAGER_FINTECH",
+    "doc_type": "JD",
+    "title": "Tuyển dụng: Senior Technical Product Manager (E-Wallet & Open Banking) - FinVanguard",
+    "language": "vi",
+    "metadata": {
+      "company": "FinVanguard Payment Technologies",
+      "department": "Khối Sản phẩm & Đổi mới Tài chính Số",
+      "level": "Senior / Lead (4+ YOE)",
+      "salary_range": "50,000,000 - 80,000,000 VND Gross",
+      "work_location": "Tòa nhà Bitexco Financial Tower, Quận 1, TP. Hồ Chí Minh",
+      "working_days": "Thứ Hai - Thứ Sáu (Chính sách Hybrid 2 ngày WFH)"
+    },
+    "content": "CÔNG TY: FINVANGUARD PAYMENT TECHNOLOGIES\nVỊ TRÍ: SENIOR TECHNICAL PRODUCT MANAGER (E-WALLET & OPEN BANKING)\nĐỊA ĐIỂM: Tòa nhà Bitexco Financial Tower, Số 2 Hải Triều, Bến Nghé, Quận 1, TP. Hồ Chí Minh\n\nGIỚI THIỆU DOANH NGHIỆP:\nFinVanguard là fintech tiên phong cung cấp giải pháp thanh toán số, hạ tầng Open Banking và giải pháp chấm điểm tín dụng số tại Đông Nam Á. Chúng tôi tìm kiếm một Technical Product Manager tài năng để định hình tương lai giao dịch tài chính số.\n\nTRÁCH NHIỆM CHÍNH:\n- Định hình tầm nhìn chiến lược, xây dựng Product Roadmap và quản lý toàn bộ chu kỳ sản phẩm ví điện tử và thanh toán số.\n- Làm việc chặt chẽ với đội ngũ Kỹ sư Phần mềm (Backend/Mobile) để chuyển hóa yêu cầu nghiệp vụ phức tạp thành Product Requirement Document (PRD), API contracts và user stories chi tiết.\n- Dẫn dắt quá trình tích hợp Open Banking API, kết nối cổng thanh toán NAPAS, VietQR và các ngân hàng đối tác.\n- Phân tích hành vi người dùng bằng các công cụ đo lường (Mixpanel, GA4), thực hiện A/B testing tối ưu hóa tỷ lệ chuyển đổi và giảm thiểu giao dịch gián đoạn.\n- Làm việc với khối Pháp chế và Rủi ro để đảm bảo tuân thủ nghiêm ngặt quy định Ngân hàng Nhà nước.\n\nYÊU CẦU NĂNG LỰC:\n- Tối thiểu 4 năm kinh nghiệm làm Product Manager hoặc Technical Product Owner trong lĩnh vực FinTech, Banking, Payment Gateway hoặc E-Commerce.\n- Hiểu biết sâu sắc về kiến trúc hệ thống tài chính: Microservices, RESTful API, webhook, cơ chế xác thực OAuth 2.0 và quy trình đối soát giao dịch.\n- Thành thạo phương pháp luận Agile/Scrum, có kinh nghiệm điều phối Sprint với đội ngũ từ 10 kỹ sư trở lên.\n- Tư duy định lượng dựa trên số liệu (Data-driven mindset), thành thạo viết truy vấn SQL trích xuất dữ liệu phân tích.\n- Kỹ năng giao tiếp xuất sắc bằng cả tiếng Việt và tiếng Anh.\n\nCHẾ ĐỘ ĐÃI NGỘ:\n- Mức lương cạnh tranh theo năng lực, review tăng lương 2 lần/năm.\n- Thưởng tháng 13 cam kết + Thưởng hiệu quả kinh doanh từ 2-4 tháng lương.\n- 18 ngày phép năm có hưởng lương + 1 ngày nghỉ sinh nhật.\n- Gói bảo hiểm sức khỏe cao cấp Bảo Việt / PVI hạn mức 500 triệu/năm."
+  },
+  {
+    "doc_id": "JD_020_DATA_ENGINEER_LAKEHOUSE",
+    "doc_type": "JD",
+    "title": "Job Description: Senior Data Lakehouse Engineer (Spark / Airflow / Snowflake) - DataForge Systems",
+    "language": "en",
+    "metadata": {
+      "company": "DataForge Systems Vietnam",
+      "department": "Enterprise Big Data & Analytics Engineering",
+      "level": "Senior (4+ YOE)",
+      "salary_range": "2,200 - 3,500 USD Gross",
+      "work_location": "Etown Central, 11 Doan Van Bo, District 4, Ho Chi Minh City",
+      "working_days": "Monday - Friday"
+    },
+    "content": "COMPANY: DATAFORGE SYSTEMS VIETNAM\nPOSITION: SENIOR DATA LAKEHOUSE ENGINEER (SPARK / AIRFLOW / DELTA LAKE)\nLOCATION: Etown Central, 11 Doan Van Bo, Ward 13, District 4, Ho Chi Minh City\n\nOVERVIEW:\nDataForge Systems designs and deploys next-generation data lakehouses for Fortune 500 financial and logistics enterprises. We process petabytes of real-time event logs, sensor telemetry, and transactional ledgers.\n\nRESPONSIBILITIES:\n- Architect, build, and optimize scalable data ingestion and transformation pipelines using Apache Spark (PySpark/Scala) and Delta Lake on AWS/GCP.\n- Author, schedule, and maintain production workflow DAGs using Apache Airflow, implementing data quality contracts and lineage validation.\n- Partner with Analytics Engineers to design dimensional star/snowflake schemas using dbt for downstream BI consumption.\n- Optimize distributed compute clusters (Databricks, EMR), resolving executor memory bottlenecks, data skew, and shuffle spills.\n- Implement real-time streaming pipelines with Apache Kafka and Spark Structured Streaming with sub-minute latency SLAs.\n\nREQUIRED EXPERIENCE:\n- At least 4 years of dedicated experience as a Data Engineer handling enterprise data volumes.\n- Mastery in Apache Spark internals: memory management, execution plans, partition tuning, and broadcast joins.\n- Extensive production experience with Apache Airflow for complex workflow orchestration.\n- Strong expertise in modern data lake formats (Delta Lake, Apache Iceberg) and cloud data warehouses (Snowflake, BigQuery).\n- Proficient in Python, advanced SQL, Git, and Infrastructure as Code (Terraform).\n- Databricks or AWS Big Data certification is a major advantage.\n\nWHY DATAFORGE:\n- Work with cutting-edge lakehouse tech stacks without legacy tech debt.\n- 100% full salary paid during the 2-month probation period.\n- Flexible working hours with remote work options.\n- Annual company retreats to overseas destinations (Japan, Thailand, Singapore).\n- Full equipment setup: High-end M3 Max MacBook Pro + 4K dual monitor setup."
+  },
+  {
+    "doc_id": "JD_021_FLUTTER_MOBILE_LEAD",
+    "doc_type": "JD",
+    "title": "Job Description: Lead Mobile App Developer (Flutter / iOS / Android) - VinaTech Mobility",
+    "language": "en",
+    "metadata": {
+      "company": "VinaTech Mobility Solutions",
+      "department": "Core Mobile Engineering",
+      "level": "Lead (5+ YOE)",
+      "salary_range": "40,000,000 - 65,000,000 VND Gross",
+      "work_location": "Landmark 81 Tower, Binh Thanh District, Ho Chi Minh City",
+      "working_days": "Monday - Friday"
+    },
+    "content": "COMPANY: VINATECH MOBILITY SOLUTIONS\nPOSITION: LEAD MOBILE DEVELOPER (FLUTTER / IOS / ANDROID)\nLOCATION: Landmark 81, Vinhomes Central Park, Binh Thanh, Ho Chi Minh City\n\nTHE OPPORTUNITY:\nVinaTech Mobility is building the next-generation electric mobility and on-demand delivery ecosystem in Vietnam. We are looking for an experienced Mobile Engineering Lead to steer our flagship consumer and driver applications.\n\nPRIMARY DUTIES:\n- Spearhead technical architecture for cross-platform mobile apps using Flutter and modern architectural paradigms (Clean Architecture, BLoC Pattern).\n- Build and maintain native platform bridges (Method Channels / Pigeon) interfacing with native GPS location sensors, BLE hardware locks, and battery monitoring controllers.\n- Mentor and lead a team of 6-8 mobile engineers, enforcing rigorous code reviews, automated linting, and unit test coverage (>80%).\n- Implement CI/CD automation with Fastlane and GitHub Actions for automated nightly builds and phased store rollouts.\n- Optimize app startup time, render frame rates (60/120 fps target), and memory allocations using DevTools and Xcode Instruments.\n\nCANDIDATE PROFILE:\n- 5+ years of mobile app development experience, with at least 3 years specializing in Flutter and Dart.\n- Solid background in native mobile platforms (iOS Swift or Android Kotlin).\n- In-depth understanding of state management patterns (BLoC, Riverpod) and reactive programming.\n- Track record of publishing and maintaining high-rating mobile applications (>1M installs) on App Store and Google Play.\n- Experience with real-time technologies: WebSockets, MQTT, and background location services.\n- Excellent leadership, communication, and architectural decision-making skills.\n\nBENEFITS:\n- Top-tier compensation package with stock options (ESOP) for core team leads.\n- 100% company-paid private health insurance for employee and spouse.\n- Premium gym and wellness membership.\n- Sponsored attendance at Google I/O and global developer conferences."
+  },
+  {
+    "doc_id": "JD_022_EMBEDDED_IOT_FIRMWARE",
+    "doc_type": "JD",
+    "title": "Job Description: Senior Embedded Systems Engineer (FreeRTOS / C++ / BLE) - SmartIoT Global",
+    "language": "en",
+    "metadata": {
+      "company": "SmartIoT Global Vietnam",
+      "department": "Hardware Engineering & Embedded Devices",
+      "level": "Senior (4+ YOE)",
+      "salary_range": "35,000,000 - 55,000,000 VND Gross",
+      "work_location": "Saigon Hi-Tech Park, District 9, Thu Duc City, Ho Chi Minh City",
+      "working_days": "Monday - Friday"
+    },
+    "content": "COMPANY: SMARTIOT GLOBAL VIETNAM\nPOSITION: SENIOR EMBEDDED SYSTEMS ENGINEER (FREERTOS / MODERN C++ / BLE)\nLOCATION: Saigon Hi-Tech Park (SHTP), Thu Duc City, Ho Chi Minh City\n\nABOUT SMARTIOT:\nSmartIoT Global is a fast-growing hardware-technology corporation creating industrial IoT sensors, smart energy meters, and wireless telematics solutions sold globally.\n\nKEY DUTIES:\n- Architect and implement firmware in Embedded C and C++ for ARM Cortex-M microcontrollers (STM32, Nordic nRF52/nRF53 series).\n- Develop multithreaded firmware applications utilizing Real-Time Operating Systems (FreeRTOS or Zephyr RTOS).\n- Implement Bluetooth Low Energy (BLE 5.x) peripheral profiles and mesh networking capabilities for low-power sensor networks.\n- Design and optimize low-power firmware routines, enabling 5+ years battery lifetime on standard lithium coin cells.\n- Implement secure bootloaders and dual-bank Firmware Over-The-Air (FOTA) update mechanisms with cryptographic authentication.\n- Collaborate with hardware engineers during schematic review, PCB bring-up, and signal debugging using oscilloscopes and logic analyzers.\n\nQUALIFICATIONS:\n- Bachelor's or Master's degree in Electrical Engineering, Computer Engineering, or related technical field.\n- 4+ years of professional embedded software/firmware development experience.\n- Strong proficiency in C and modern C++ for bare-metal and RTOS environments.\n- Extensive experience with wireless protocols (BLE, LoRaWAN, Zigbee, or cellular IoT NB-IoT/Cat-M1).\n- Familiarity with hardware interfaces: SPI, I2C, UART, CAN, RS485, DMA.\n- Hands-on debugging skills with JTAG/SWD, Saleae logic analyzers, and digital oscilloscopes.\n\nWHAT WE OFFER:\n- Modern hardware R&D laboratory equipped with state-of-the-art testing instruments.\n- 13th month salary bonus + performance-driven annual incentives.\n- Comprehensive health insurance package including outpatient and inpatient coverage.\n- Hybrid work flexibility for firmware algorithm development."
+  },
+  {
+    "doc_id": "JD_023_SITE_RELIABILITY_ENGINEER",
+    "doc_type": "JD",
+    "title": "Job Description: Site Reliability Engineer (SRE / Observability / Chaos Engineering) - CloudNova",
+    "language": "en",
+    "metadata": {
+      "company": "CloudNova Global",
+      "department": "Platform Reliability & Infrastructure",
+      "level": "Senior (3+ YOE)",
+      "salary_range": "40,000,000 - 65,000,000 VND Gross",
+      "work_location": "Keangnam Landmark 72, Pham Hung, Nam Tu Liem, Ha Noi",
+      "working_days": "Monday - Friday"
+    },
+    "content": "COMPANY: CLOUDNOVA GLOBAL\nPOSITION: SITE RELIABILITY ENGINEER (SRE / OBSERVABILITY / KUBERNETES)\nLOCATION: Keangnam Landmark 72, Pham Hung, Nam Tu Liem, Ha Noi\n\nMISSION:\nEnsure maximum uptime, high availability (99.99%), and sub-second response times for our global multi-tenant SaaS platforms serving 5 million daily active transactions.\n\nRESPONSIBILITIES:\n- Define, measure, and maintain Service Level Objectives (SLOs), Service Level Indicators (SLIs), and error budgets across all core microservices.\n- Architect enterprise observability stacks utilizing Prometheus, Grafana, OpenTelemetry, and Loki for distributed tracing and metrics aggregation.\n- Administer multi-region Kubernetes clusters (EKS/GKE), automated autoscaling, and service mesh (Istio).\n- Conduct proactive chaos engineering experiments (Chaos Mesh, Gremlin) to identify and remediate single points of failure.\n- Drive incident management, blameless post-mortems, and build automated self-healing scripts to reduce Mean Time to Recovery (MTTR).\n\nREQUIREMENTS:\n- 3+ years experience as an SRE, DevOps Engineer, or Systems Architect in high-traffic production environments.\n- In-depth expertise in Kubernetes operations, Helm charts, and Linux system internals (cgroups, namespaces, eBPF).\n- Experience designing monitoring and alerting ecosystems using Prometheus, Alertmanager, and Grafana.\n- Strong coding proficiency in Go or Python for automating infrastructure workflows.\n- Thorough understanding of networking: TCP/IP, DNS, HTTP/2, TLS, and CDN edge routing.\n\nBENEFITS:\n- Competitive salary package with generous annual performance bonus.\n- On-call compensation allowances and compensatory rest leave.\n- Generous training budget for CKA, CKAD, and AWS Professional certifications.\n- International, diverse engineering culture with flexible remote options."
+  },
+  {
+    "doc_id": "JD_024_DATABASE_ADMIN_POSTGRES",
+    "doc_type": "JD",
+    "title": "Tuyển dụng: Lead Database Administrator (PostgreSQL High Availability & DBA) - VinPay",
+    "language": "vi",
+    "metadata": {
+      "company": "VinPay Digital Financial Services",
+      "department": "Ban Quản trị Hạ tầng Cơ sở Dữ liệu Cốt lõi",
+      "level": "Lead (5+ YOE)",
+      "salary_range": "45,000,000 - 75,000,000 VND Gross",
+      "work_location": "Tòa nhà Symphony, Chu Huy Mân, Long Biên, Hà Nội",
+      "working_days": "Thứ Hai - Thứ Sáu"
+    },
+    "content": "CÔNG TY: CÔNG TY DỊCH VỤ TÀI CHÍNH SỐ VINPAY\nVỊ TRÍ: LEAD DATABASE ADMINISTRATOR (POSTGRESQL HIGH AVAILABILITY & DBA)\nĐỊA ĐIỂM: Tòa nhà Symphony, Đường Chu Huy Mân, Phúc Lợi, Long Biên, Hà Nội\n\nMÔ TẢ VỊ TRÍ:\nChịu trách nhiệm thiết kế kiến trúc, đảm bảo tính sẵn sàng cao, bảo mật và tối ưu hóa hiệu năng tối đa cho toàn bộ các cụm cơ sở dữ liệu PostgreSQL xử lý giao dịch thanh toán tài chính của VinPay.\n\nTRÁCH NHIỆM CHÍNH:\n- Quản trị, giám sát và vận hành các cụm cơ sở dữ liệu PostgreSQL quy mô lớn (hàng chục Terabytes) hoạt động 24/7.\n- Thiết lập và duy trì các giải pháp High Availability (HA) và Disaster Recovery (DR) sử dụng Patroni, etcd, Streaming Replication và pgBackRest.\n- Phân tích hiệu năng, chẩn đoán điểm nghẽn (bottleneck) thông qua pg_stat_statements, EXPLAIN ANALYZE và tối ưu hóa index (B-tree, GIN, GiST, HNSW pgvector).\n- Quản lý cấu hình connection pooler (PgBouncer) đảm bảo chịu tải hàng chục nghìn kết nối đồng thời trong các đợt flash sale/khuyến mãi lớn.\n- Xây dựng quy trình tự động hóa backup, kiểm thử khôi phục dữ liệu định kỳ và triển khai vá lỗi bảo mật CVE kịp thời.\n\nYÊU CẦU NĂNG LỰC:\n- Tối thiểu 5 năm kinh nghiệm quản trị cơ sở dữ liệu PostgreSQL ở môi trường production quy mô lớn.\n- Chuyên gia về cấu trúc lưu trữ của PostgreSQL, cơ chế MVCC, VACUUM, WAL và lock contention.\n- Kinh nghiệm thực chiến với kiến trúc HA: Patroni, Corosync/Pacemaker, Keepalived.\n- Nắm vững các kỹ thuật tối ưu hóa truy vấn SQL phức tạp và kỹ thuật partitioning dữ liệu quy mô lớn.\n- Kỹ năng lập trình kịch bản Bash/Python để tự động hóa tác vụ vận hành DBA.\n\nCHẾ ĐỘ & QUYỀN LỢI:\n- Lương thưởng hấp dẫn trong top đầu ngành tài chính ngân hàng.\n- Thưởng các dịp Lễ, Tết, thưởng cuối năm theo kết quả kinh doanh tập đoàn.\n- Chế độ nghỉ dưỡng và ưu đãi đặc quyền trong hệ sinh thái VinGroup.\n- Bảo hiểm sức khỏe cao cấp toàn diện cho bản thân và người thân."
+  },
+  {
+    "doc_id": "JD_025_BLOCKCHAIN_SMART_CONTRACTS",
+    "doc_type": "JD",
+    "title": "Job Description: Senior Web3 & Smart Contract Developer (Solidity / Rust / EVM) - EtherFlow Labs",
+    "language": "en",
+    "metadata": {
+      "company": "EtherFlow Labs",
+      "department": "Decentralized Protocols & Smart Contracts",
+      "level": "Senior (3+ YOE)",
+      "salary_range": "3,000 - 5,000 USD (Paid in USDT / USD)",
+      "work_location": "Fully Remote (Vietnam / Southeast Asia)",
+      "working_days": "Flexible Hours"
+    },
+    "content": "COMPANY: ETHERFLOW LABS\nPOSITION: SENIOR WEB3 & SMART CONTRACT DEVELOPER (SOLIDITY / RUST / EVM)\nLOCATION: 100% Remote (Global / Southeast Asia)\n\nABOUT ETHERFLOW:\nEtherFlow Labs is a Web3 venture studio engineering decentralized finance (DeFi) liquidity aggregators, cross-chain bridges, and staking derivatives securing over $150M in Total Value Locked (TVL).\n\nROLE OVERVIEW:\nDesign, develop, and audit mission-critical smart contracts powering decentralized lending and automated market makers (AMMs) across Ethereum, Arbitrum, and Solana.\n\nCORE RESPONSIBILITIES:\n- Architect, write, and deploy secure Solidity smart contracts following industry standards (ERC-20, ERC-721, ERC-4626).\n- Conduct rigorous unit and fuzz testing using modern toolchains: Foundry (Forge), Hardhat, and Echidna.\n- Perform gas optimization audits to minimize transaction execution costs for end users.\n- Coordinate with external tier-1 smart contract audit firms (CertiK, OpenZeppelin) to identify and patch security vulnerabilities.\n- Build decentralized integration tests interacting with frontend web3 libraries (viem, wagmi, ethers.js).\n\nQUALIFICATIONS:\n- 3+ years of professional smart contract development experience in DeFi or Web3.\n- Deep understanding of the Ethereum Virtual Machine (EVM), opcodes, and memory layout.\n- Proven track record of deployed smart contracts that have handled significant financial volume.\n- Familiarity with common smart contract exploit vectors (reentrancy, front-running, flash loan attacks, oracle manipulation).\n- Experience with Rust / Solana Anchor is an advantageous plus.\n\nCOMPENSATION & PERKS:\n- Fully remote autonomy with flexible schedule.\n- Highly competitive compensation benchmarked to US/Singapore Web3 markets.\n- Token allocation grant options in native protocol governance tokens.\n- Annual global team offsites in premier locations (Bali, Dubai, Lisbon)."
+  },
+  {
+    "doc_id": "JD_026_NLP_LLM_EVALUATION",
+    "doc_type": "JD",
+    "title": "Job Description: AI Alignment & LLM Evaluation Specialist - GenAI Studio",
+    "language": "en",
+    "metadata": {
+      "company": "GenAI Studio Vietnam",
+      "department": "Applied AI Research & Model Evaluation",
+      "level": "Mid-Senior (2+ YOE)",
+      "salary_range": "35,000,000 - 55,000,000 VND Gross",
+      "work_location": "Deutsches Haus, 33 Le Duan, Ben Nghe, District 1, Ho Chi Minh City",
+      "working_days": "Monday - Friday"
+    },
+    "content": "COMPANY: GENAI STUDIO VIETNAM\nPOSITION: AI ALIGNMENT & LLM EVALUATION SPECIALIST\nLOCATION: Deutsches Haus, 33 Le Duan Boulevard, District 1, Ho Chi Minh City\n\nTHE MISSION:\nGenAI Studio pioneers enterprise Generative AI products. As an LLM Evaluation Specialist, you will develop scientific benchmark suites measuring semantic chunking fidelity, RAG answer faithfulness, and LLM safety alignment.\n\nJOB RESPONSIBILITIES:\n- Design quantitative automated evaluation pipelines assessing RAG retrieval precision, contextual recall, and generation faithfulness.\n- Benchmark document segmentation algorithms (Fixed-size, Recursive, Semantic Chunking) against realistic retrieval workloads.\n- Implement evaluation frameworks such as Ragas, TruLens, and DeepEval across multilingual enterprise corpora.\n- Conduct systematic adversarial prompt red-teaming to uncover jailbreaks, hallucination triggers, and prompt injection vulnerabilities.\n- Collaborate with machine learning researchers to fine-tune local embedding and re-ranking models for specialized domains.\n\nREQUIREMENTS:\n- Bachelor's or Master's in Computer Science, Computational Linguistics, Data Science, or related field.\n- 2+ years experience working with Natural Language Processing and Large Language Models.\n- Proficient in Python, Hugging Face ecosystem, and vector databases.\n- Strong understanding of vector retrieval metrics: MRR, NDCG@K, Recall@K, and Cosine Distance.\n- Passion for AI ethics, safety, and rigorous scientific measurement.\n\nBENEFITS:\n- Grade-A office workspace in the heart of Saigon.\n- Access to high-performance GPU clusters (NVIDIA H100 and A100 nodes).\n- Comprehensive health and wellness coverage.\n- Weekly tech talks and publication bonus for research conference papers."
+  },
+  {
+    "doc_id": "JD_027_HR_COMPENSATION_BENEFITS",
+    "doc_type": "JD",
+    "title": "Thông báo tuyển dụng: Chuyên viên Cấp cao Tiền lương & Phúc lợi (Senior C&B Specialist) - FPT Retail",
+    "language": "vi",
+    "metadata": {
+      "company": "FPT Retail Corporation",
+      "department": "Phòng Nhân sự - Ban Đãi ngộ & Quản trị Nhân tài (C&B)",
+      "level": "Senior (4+ YOE)",
+      "salary_range": "25,000,000 - 40,000,000 VND Gross",
+      "work_location": "Tòa nhà FPT Retail, 261-263 Khánh Hội, Phường 2, Quận 4, TP. Hồ Chí Minh",
+      "working_days": "Thứ Hai - Thứ Sáu"
+    },
+    "content": "CÔNG TY: CÔNG TY CỔ PHẦN BÁN LẺ KỸ THUẬT SỐ FPT (FPT RETAIL)\nVỊ TRÍ: CHUYÊN VIÊN CẤP CAO TIỀN LƯƠNG & PHÚC LỢI (SENIOR C&B SPECIALIST)\nĐỊA ĐIỂM: 261-263 Khánh Hội, Phường 2, Quận 4, TP. Hồ Chí Minh\n\nGIỚI THIỆU TỔ CHỨC:\nFPT Retail là thành viên của Tập đoàn FPT, sở hữu chuỗi hệ thống FPT Shop và Chuỗi Nhà thuốc FPT Long Châu với hơn 15,000 cán bộ nhân viên trên 63 tỉnh thành toàn quốc.\n\nNHIỆM VỤ TRỌNG TÂM:\n- Trực tiếp quản lý và vận hành quy trình tính lương, thưởng KPI, hoa hồng bán hàng hàng tháng cho hơn 3,000 nhân sự khối công nghệ và văn phòng.\n- Quản lý và thực hiện quyết toán Thuế Thu nhập cá nhân (TNCN), trích nộp các khoản Bảo hiểm bắt buộc (BHXH, BHYT, BHTN) đúng thời hạn pháp luật quy định.\n- Tham gia xây dựng và chuẩn hóa hệ thống thang bảng lương, cơ chế đãi ngộ 3P (Position - Person - Performance).\n- Phối hợp với bộ phận IT HR để số hóa và tự động hóa quy trình chấm công, tính lương trên phần mềm nhân sự nội bộ.\n- Giải đáp thắc mắc của người lao động về chế độ chính sách, bảo hiểm sức khỏe và phúc lợi tập đoàn.\n\nTIÊU CHUẨN TUYỂN DỤNG:\n- Tốt nghiệp Đại học chuyên ngành Quản trị Nhân lực, Kinh tế lao động, Luật hoặc Kế toán - Tài chính.\n- Tối thiểu 4 năm kinh nghiệm làm công tác C&B chuyên sâu tại các doanh nghiệp có quy mô từ 1,000 nhân viên trở lên.\n- Nắm vững Luật Lao động, Luật BHXH, Luật Thuế TNCN hiện hành.\n- Kỹ năng sử dụng Excel nâng cao (VLOOKUP, INDEX/MATCH, Pivot Table, VBA) thành thạo.\n- Cẩn trọng, trung thực, bảo mật thông tin tuyệt đối và có tinh thần trách nhiệm cao.\n\nQUYỀN LỢI:\n- Môi trường tập đoàn công nghệ lớn, năng động và tôn trọng sự đổi mới.\n- Thưởng tháng lương 13 + Thưởng hiệu quả kinh doanh FPT.\n- Chế độ bảo hiểm FPT Care cho bản thân và người thân.\n- Mua sắm sản phẩm công nghệ và dược phẩm Long Châu với chính sách chiết khấu ưu đãi dành riêng cho nhân viên."
   }
 ]

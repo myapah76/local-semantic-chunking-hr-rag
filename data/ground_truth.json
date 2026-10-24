@@ -106,5 +106,77 @@
     ],
     "description": "Kiểm tra truy xuất quy định giờ giấc và số ngày WFH tối đa.",
     "difficulty": "easy"
+  },
+  {
+    "query_id": "Q_CV_04",
+    "query": "Ứng viên Vũ Đức Thắng có kinh nghiệm xử lý điều tra cảnh báo an ninh mạng SIEM và viết luật Splunk như thế nào?",
+    "doc_type": "CV",
+    "target_doc_id": "CV_010_CYBERSECURITY_SOC_ANALYST",
+    "ground_truth_snippets": [
+      "triaged over 200 security alerts per day",
+      "40+ custom Splunk correlation searches detecting Pass-the-Hash"
+    ],
+    "description": "Kiểm tra truy xuất kinh nghiệm SOC và kỹ năng Splunk của kỹ sư an toàn thông tin.",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q_CV_05",
+    "query": "Đặng Quang Huy đã tối ưu hóa và giảm thời gian chạy các pipeline xử lý dữ liệu PySpark trên AWS Databricks xuống bao nhiêu phút?",
+    "doc_type": "CV",
+    "target_doc_id": "CV_012_DATA_ENGINEER_BIGDATA",
+    "ground_truth_snippets": [
+      "cutting cluster runtime from 6.5 hours down to 42 minutes",
+      "saving $4,500/month in EC2 compute costs"
+    ],
+    "description": "Kiểm tra truy xuất thành tích tối ưu hóa Big Data pipeline trong CV kỹ sư dữ liệu.",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q_CV_06",
+    "query": "Phan Minh Trí đã tái cấu trúc ứng dụng mobile bằng kiến trúc gì và tỷ lệ crash-free users đạt được là bao nhiêu?",
+    "doc_type": "CV",
+    "target_doc_id": "CV_013_MOBILE_FLUTTER_IOS",
+    "ground_truth_snippets": [
+      "Flutter Clean Architecture kết hợp BLoC",
+      "Crash-free users đạt 99.96%"
+    ],
+    "description": "Kiểm tra truy xuất kiến trúc phần mềm mobile và số liệu crash rate trong CV.",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "Q_JD_04",
+    "query": "Vị trí Senior Data Lakehouse Engineer tại DataForge yêu cầu kinh nghiệm gì về Apache Spark và Apache Airflow?",
+    "doc_type": "JD",
+    "target_doc_id": "JD_020_DATA_ENGINEER_LAKEHOUSE",
+    "ground_truth_snippets": [
+      "Mastery in Apache Spark internals: memory management, execution plans",
+      "Extensive production experience with Apache Airflow for complex workflow orchestration"
+    ],
+    "description": "Kiểm tra truy xuất yêu cầu công nghệ lõi Big Data từ JD tiếng Anh.",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q_JD_05",
+    "query": "Vị trí Lead Mobile Developer tại VinaTech yêu cầu kinh nghiệm bao nhiêu năm về Flutter và tỷ lệ unit test coverage mục tiêu là bao nhiêu?",
+    "doc_type": "JD",
+    "target_doc_id": "JD_021_FLUTTER_MOBILE_LEAD",
+    "ground_truth_snippets": [
+      "at least 3 years specializing in Flutter and Dart",
+      "unit test coverage (>80%)"
+    ],
+    "description": "Kiểm tra truy xuất đồng thời số năm kinh nghiệm Flutter và chuẩn kiểm thử từ JD.",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "Q_JD_06",
+    "query": "Vị trí Chuyên viên C&B Cấp cao tại FPT Retail yêu cầu số năm kinh nghiệm và tiêu chuẩn thành thạo Excel như thế nào?",
+    "doc_type": "JD",
+    "target_doc_id": "JD_027_HR_COMPENSATION_BENEFITS",
+    "ground_truth_snippets": [
+      "Tối thiểu 4 năm kinh nghiệm làm công tác C&B chuyên sâu tại các doanh nghiệp có quy mô từ 1,000 nhân viên trở lên",
+      "Kỹ năng sử dụng Excel nâng cao (VLOOKUP, INDEX/MATCH, Pivot Table, VBA) thành thạo"
+    ],
+    "description": "Kiểm tra truy xuất yêu cầu kỹ năng C&B và công cụ Excel trong JD tiếng Việt.",
+    "difficulty": "easy"
   }
 ]

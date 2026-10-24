@@ -1,13 +1,13 @@
 Strategy,Doc Type,Query Count,Recall@3,Recall@5,MRR
-"FixedSize(size=800,overlap=150)",CV,3,1.0,1.0,0.8333
-"FixedSize(size=800,overlap=150)",JD,3,1.0,1.0,1.0
+"FixedSize(size=800,overlap=150)",CV,6,1.0,1.0,0.8056
+"FixedSize(size=800,overlap=150)",JD,6,1.0,1.0,0.8333
 "FixedSize(size=800,overlap=150)",POLICY,3,1.0,1.0,1.0
-"SentenceBased(N=3,overlap=1)",CV,3,1.0,1.0,0.8333
-"SentenceBased(N=3,overlap=1)",JD,3,1.0,1.0,0.8333
+"SentenceBased(N=3,overlap=1)",CV,6,0.8333,1.0,0.7917
+"SentenceBased(N=3,overlap=1)",JD,6,0.9167,1.0,0.9167
 "SentenceBased(N=3,overlap=1)",POLICY,3,1.0,1.0,1.0
-"ParagraphBased(min=300,max=2000)",CV,3,1.0,1.0,1.0
-"ParagraphBased(min=300,max=2000)",JD,3,1.0,1.0,1.0
+"ParagraphBased(min=300,max=2000)",CV,6,1.0,1.0,1.0
+"ParagraphBased(min=300,max=2000)",JD,6,1.0,1.0,1.0
 "ParagraphBased(min=300,max=2000)",POLICY,3,1.0,1.0,1.0
-LocalSemantic(thresh=0.4),CV,3,1.0,1.0,0.8333
-LocalSemantic(thresh=0.4),JD,3,1.0,1.0,1.0
+LocalSemantic(thresh=0.4),CV,6,1.0,1.0,0.8056
+LocalSemantic(thresh=0.4),JD,6,1.0,1.0,0.9167
 LocalSemantic(thresh=0.4),POLICY,3,1.0,1.0,1.0
